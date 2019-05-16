@@ -1,5 +1,3 @@
-{% extends 'base.html' %}
-{% block head %}
 <style>
     .hover_container {
       position: relative;
@@ -66,41 +64,33 @@
       font-size: 16px;
       padding: 16px 32px;
     }
-    
-    /*.to-detail {*/
-        /*position: static;*/
-        /*left: 50%;*/
-        /*bottom: -60%;*/
-    /*}*/
 </style>
-{% endblock %}
 
-{% block content %}
 <br>
 <div class="container">
     <!--<p class="mt-3"> <span class="text-white">{{ user.username }}</span><span class="text-muted">님이 보고싶어요한 작품</span></p>-->
     <div class="row">
-        {% for movie in movie_list %}
+        {% for status in statuss %}
         <div class="col-4 mb-3">
             <!--<div class="card card-hover h-100">-->
             <!--<div class="col-10 my-3">-->
                 <div class="card card-hover h-100 hover_container" style="width: 18rem; background-color: #191919;">
-                        <img src="{{ movie.poster_url }}" class="card-img-top hover_image" style="height: 410px;" alt="...">
+                        <img src="{{ status.poster_url }}" class="card-img-top hover_image" style="height: 410px;" alt="...">
                         <div class="middle">
                             <div class="text text-left">
-                                <h5>{{ movie.title }}</h5>
-                                <p>{{ movie.runtime }}분</p>
-                                {% if movie.overview %}
-                                <p style="font-size:14px;">{{ movie.overview }}</p>
+                                <h5>{{ status.title }}</h5>
+                                <p>{{ status.runtime }}분</p>
+                                {% if status.overview %}
+                                <p style="font-size:14px;">{{ status.overview }}</p>
                                 {% else %}
                                 <p style="font-size:14px;">해당 정보가 없습니다.</p>
                                 {% endif %}
-                                {% if movie.video %}
-                                    <button type="button" class="btn btn-danger btn-xs" onclick="window.open('{{ movie.video }}', '{{ movie.title }}예고편 영상'); return false"><i class="far fa-play-circle"></i> 재생</button>
+                                {% if status.video %}
+                                    <button type="button" class="btn btn-danger btn-xs" onclick="window.open('{{ status.video }}', '{{ status.title }}예고편 영상'); return false"><i class="far fa-play-circle"></i> 재생</button>
                                 {% else %}
                                     <button type="button" class="btn btn-danger btn-xs" style='font-size: 12px;' disabled>예고편을 지원하지 않는 영화 입니다.</button>
                                 {% endif %}
-                                <a href="{% url 'movies:detail' movie.pk %}" id='detailLink'><i class="fas fa-angle-down fa-2x to-detail d-flex justify-content-center"></i></a>
+                                <a href="{% url 'movies:detail' status.pk %}" id='detailLink'><i class="fas fa-angle-down fa-2x to-detail d-flex justify-content-center"></i></a>
                             </div>
                         </div>
                     <!--<div class="card-body">-->
@@ -121,68 +111,19 @@
 <div class="container">
     <div class="pagination d-flex justify-content-center">
         <span class="step-links">
-            {% if movie_list.has_previous %}
+            {% if statuss.has_previous %}
                 <a href="?page=1"><< </a>
-                <a href="?page={{ movie_list.previous_page_number }}"><</a>
+                <a href="?page={{ statuss.previous_page_number }}"><</a>
             {% endif %}
     
             <span class="current text-white">
-                Page {{ movie_list.number }} of {{ movie_list.paginator.num_pages }}.
+                Page {{ statuss.number }} of {{ statuss.paginator.num_pages }}.
             </span>
     
-            {% if movie_list.has_next %}
-                <a href="?page={{ movie_list.next_page_number }}">></a>
-                <a href="?page={{ movie_list.paginator.num_pages }}"> >></a>
+            {% if statuss.has_next %}
+                <a href="?page={{ statuss.next_page_number }}">></a>
+                <a href="?page={{ statuss.paginator.num_pages }}"> >></a>
             {% endif %}
         </span>
     </div>
 </div>
-
-
-
-
-
-<!--<p>보고싶어요</p>-->
-<!--{# for movie in user.like_movie.all #}-->
-<!--    <li>{{ movie.title }}</li>-->
-<!--{# endfor #}-->
-<!--<hr>-->
-<!--<p>관심없어요</p>-->
-<!--{# for movie in user.hate_movie.all #}-->
-<!--    <li>{{ movie.title }}</li>-->
-<!--{# endfor #}-->
-
-
-
-
-
-<!--<div class="view overlay">-->
-<!--    <img src="https://mdbootstrap.com/img/Photos/Others/forest-sm.jpg" class="img-fluid " alt="smaple image">-->
-<!--    <div class="mask flex-center rgba-red-strong">-->
-<!--        <p class="white-text">Strong overlay</p>-->
-<!--    </div>-->
-<!--</div>-->
-
-
-<!--<div class="row">-->
-<!--        <div class="col-sm-4">-->
-<!--            <div class="card card-hover h-100">-->
-<!--                <div class="card-body">-->
-<!--                    <i class="fa fa-search fa-5x float-right"></i>-->
-<!--                    <h3 class="card-title">Front</h3>-->
-<!--                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>-->
-<!--                    <div class="reveal bg-warning p-2">-->
-<!--                        This is hidden until card in hovered!-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-
-    
-    
-  
-
-{% endblock %}
-
-

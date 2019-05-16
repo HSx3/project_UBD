@@ -283,15 +283,9 @@ def search(request):
         context = {
             'statuss': statuss
         }
-        print(statuss)
         return render(request, 'movies/index.html', context)
     else:
         return HttpResponseBadRequest()
-
-@login_required
-def search_result(request):
-    print('hi')
-    return
         
 # 추천 페이지
 @login_required
