@@ -7,6 +7,7 @@ from .models import Movie, Score, Genre
 from accounts.models import User
 from .forms import MovieForm, ScoreForm
 from django.core.paginator import Paginator
+import json
 
 # Create your views here.
 # 홈
@@ -277,14 +278,14 @@ def evaluate(request):
 @login_required
 def search(request):
     if request.is_ajax():
-        return redirect('movies:list')
+        title = json.loads(request.body.decode('utf-8'))
         # title = request.POST.get('title', None)
         # title = ''
-        # statuss = Movie.objects.filter(title__contains=title)
-        # context = {
-        #     'statuss': statuss
-        # }
-        # return render(request, 'movies/index.html', context)
+        statuss = Movie.objects.filter(title__contains=title)
+        context = {
+            'statuss': statuss
+        }
+        return render(request, 'movies/index.html', context)
     else:
         return HttpResponseBadRequest()
         
