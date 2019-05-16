@@ -277,13 +277,14 @@ def evaluate(request):
 @login_required
 def search(request):
     if request.is_ajax():
-        title = request.POST.get('title', None)
-        title = ''
-        statuss = Movie.objects.filter(title__contains=title)
-        context = {
-            'statuss': statuss
-        }
-        return render(request, 'movies/index.html', context)
+        return redirect('movies:list')
+        # title = request.POST.get('title', None)
+        # title = ''
+        # statuss = Movie.objects.filter(title__contains=title)
+        # context = {
+        #     'statuss': statuss
+        # }
+        # return render(request, 'movies/index.html', context)
     else:
         return HttpResponseBadRequest()
         
