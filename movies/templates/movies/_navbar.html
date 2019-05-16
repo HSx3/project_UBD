@@ -89,11 +89,10 @@
         $('#searchMovie').keyup(function() {
     $('#searchMovie').each(function() {
                 var searching = $('#searchMovie').val()
-                const data = { title: searching, }
                 axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest'
                 axios.defaults.xsrfCookieName = 'csrftoken'
                 axios.defaults.xsrfHeaderName = 'X-CSRFToken'
-                axios.post('/movies/search/', data)
+                axios.post('/movies/search/', { title: searching, })
                     .then(response => {
                         console.log(response)
                     })
