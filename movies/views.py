@@ -278,9 +278,9 @@ def evaluate(request):
 @login_required
 def search(request):
     if request.is_ajax():
-        title = json.loads(request.body.decode('utf-8'))
+        # title = json.loads(request.body.decode('utf-8'))
         # title = request.POST.get('title', None)
-        # title = ''
+        title = ''
         statuss = Movie.objects.filter(title__contains=title)
         context = {
             'statuss': statuss
