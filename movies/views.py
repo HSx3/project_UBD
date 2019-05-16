@@ -144,8 +144,8 @@ def detail(request, movie_pk):
 @login_required
 @require_POST
 def score_create(request, movie_pk):
+    form = ScoreForm(request.POST)
     if form.is_valid():
-        form = ScoreForm(request.POST)
         if score_form.is_valid():
             score = form.save(commit=False)
             score.user = request.user
