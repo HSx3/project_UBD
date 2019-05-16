@@ -118,9 +118,9 @@
             {% else %}
             <a href="{% url 'accounts:login' %}"><p>로그인이 필요합니다.</p></a>
             {% endif %}
-    </div>
     <hr>
-    <a href="{% url 'posts:index' movie.pk %}">토론게시판</a>
+    <a href="{% url 'posts:index' movie.pk %}" class="text-white">토론게시판</a>
+    </div>
  
 
 {% endblock %}
