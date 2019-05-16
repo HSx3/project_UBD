@@ -1,0 +1,59 @@
+{% load static %}
+{% load bootstrap4 %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="icon" href="img/core-img/favicon.ico">
+    <link rel="stylesheet" href="{% static 'movies/style.css' %}" />
+    <link href="https://fonts.googleapis.com/css?family=Do+Hyeon|Jua&amp;subset=korean" rel="stylesheet">
+    {% block head %}
+    {% endblock %}
+    <style>
+        .navbar {
+            font-family: 'Do Hyeon', sans-serif;
+            font-size: 25px;
+        }
+        body {
+            font-family: 'Jua', sans-serif;
+        }
+    </style>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <title>영복동: 영복동 하나만 기억해주세요.</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    {% include 'movies/_navbar.html' %}
+    {% block content %}
+    {% endblock %}
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+        const likeButtons = document.querySelectorAll('.like-button')
+        likeButtons.forEach( button => {
+            button.addEventListener('click', function (event) {
+                const movieId = event.target.dataset.id
+                axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest'
+                axios.defaults.xsrfCookieName = 'csrftoken'
+                axios.defaults.xsrfHeaderName = 'X-CSRFToken'
+                axios.post(`/movies/${movieId}/like/`)
+                    .then(response => {
+                        if (response.data.liked) {
+                            event.target.classList.remove('far')
+                            event.target.classList.add('fas')
+                        } else {
+                            event.target.classList.remove('fas')
+                            event.target.classList.add('far')
+                        }
+                    })
+                    .catch(error => console.log(error))
+            })
+        })
+    </script>
+</body>
+</html>

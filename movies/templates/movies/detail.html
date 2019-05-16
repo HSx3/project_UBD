@@ -1,0 +1,124 @@
+{% extends 'base.html' %}
+{% block head %}
+    <style>
+        /*p {*/
+        /*    color: white;*/
+        /*}*/
+        .container {
+            color: white;
+            /*background-image: url("{{ movie.poster_url }}");*/
+            
+        }
+        
+        hr{ 
+            height: 1px;
+            color: white;
+            background-color: white;
+            border: none;
+        }
+    </style>
+{% endblock %}
+
+{% block content %}
+    <br>
+    <div class="container">
+        <h1>{{ movie.title }}</h1>
+        <p>{{ movie.original_title }}</p>
+        <!--<div class="input-group btn-group btn-group-sm">-->
+        <!--    <div class="input-group-prepend">-->
+        <!--        <div class="input-group-text" id="btnGroupAddon">평점</div>-->
+        <!--    </div>-->
+        <!--    <input type="text" class="form-control" aria-label="{{ movie.vote_average }}">-->
+        <!--</div>-->
+        <p><b>평점 :</b> {{ movie.vote_average }} | {{ movie.runtime }}분</p>
+        <h3 class="text-secondary">줄거리</h3>
+        <p class="text-secondary">{{ movie.overview }}</p>
+        <p class="text-dark"><b>감독 :</b>
+            {% for director in movie.movie_director.all %}
+                {{ director }}
+            {% endfor %}
+        </p>
+        <p class="text-dark"><b>출연 :</b>
+            {% for actor in actors %}
+                {{ actor.actor }}, 
+            {% endfor %}
+        </p>
+        <p class="text-dark"><b>인기도 :</b> {{ movie.popularity }}</p>
+        <p class="text-dark"><b>장르 :</b>
+            {% for genre in movie.movie_genre.all %}
+                {{ genre }}
+            {% endfor %}
+        </p>
+        
+        {% if movie.video %}
+            <button type="button" class="btn btn-danger btn-xs" onclick="window.open('{{ movie.video }}', '{{ movie.title }}예고편 영상'); return false"><i class="far fa-play-circle"></i> 재생</button>
+        {% else %}
+            <button type="button" class="btn btn-danger btn-xs" disabled>예고편을 지원하지 않는 영화 입니다.</button>
+        {% endif %}
+        
+        
+        <!--<button type="button" class="btn btn-danger btn-xs"><i class="far fa-play-circle"></i> 예고편</button>-->
+        <i class="{% if user in movie.like_users.all %}fas{% else %}far{% endif %} fa-heart fa-lg text-danger like-button" data-id="{{ movie.pk }}" style="color:crimson"></i>
+        
+       
+        <!--<p>{{ movie.cast_set.all }}</p>-->
+        <!--<p>{{ movie.cast_set.all.first }}</p>-->
+        <!--<p>{{ movie.cast_set.all.first.actor }}</p>-->
+        
+        <!--{# for actors in movie.cast_set.all #}-->
+        <!--    {# actors.actor #},-->
+        <!--{# endfor #}-->
+        
+   
+        
+        
+        <!--<hr>-->
+        <!--<form action="{# url 'movies:delete' movie.pk #}" method="POST">-->
+        <!--    {% csrf_token %}-->
+        <!--    <input type="submit" value="삭제"/>-->
+        <!--</form>-->
+        <!--<a href="{# url 'movies:update' movie.pk #}">수정</a>-->
+        <hr>
+        <h3>작성된 평</h3>
+        {% for score in movie.score_set.all %}
+            <strong>{{ score.user }}</strong>: {{ score.score }}점 <span class="text-muted">{{ score.created|timesince }} 전</span><br>
+            
+            <!--{{ score.review }}-->
+            {% if score.user == request.user %}
+            <form action="{% url 'movies:score_delete' movie.pk score.pk %}" method="POST" style="display:inline;">
+                {% csrf_token %}
+                {% if score.spoiler %}
+                    <!--<p>이 코멘트에는 스포일러가 있어요. <a href="" class="text-danger font-weight-bold">보기</a></p>-->
+                    <input class="spoilerbutton text-danger font-weight-bold" type="button" value="스포일러가 포함된 댓글입니다. 확인하려면 클릭하세요." onclick="this.value=this.value=='스포일러가 포함된 댓글입니다. 확인하려면 클릭하세요.'?'{{ score.review }}':'스포일러가 포함된 댓글입니다. 확인하려면 클릭하세요.';">
+                    <div class="spoiler"><div>
+                    <!--<p>test  </p>-->
+                    <!--<p>  </p>-->
+                    </div></div>
+                    
+                    <!--<button type="button" class="btn btn-outline-light">{{ score.review }}</button>-->
+                    <!--<p>스포일러가 포함된 댓글입니다. 댓글을 보려면 마우스를 올려주세요.</p>-->
+                {% else %}
+                    <p>{{ score.review }}</p>
+                {% endif %}
+                <input type="submit" value="❌"/>
+            </form>
+            <a href="{% url 'movies:score_update' movie.pk score.pk %}">수정하기</a>
+            {% endif %}
+            <br>
+        {% endfor %}
+            
+        <hr>
+            <h3>리뷰/평점</h3>
+            {% if user.is_authenticated %}
+            <form action="{% url 'movies:score_create' movie.pk %}" method="POST">
+                {% csrf_token %}
+                {{ score_form }}
+                <input type="submit" value="작성하기"/>
+            </form>
+            {% else %}
+            <a href="{% url 'accounts:login' %}"><p>로그인이 필요합니다.</p></a>
+            {% endif %}
+    </div>
+ 
+
+{% endblock %}

@@ -1,0 +1,118 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block head %}
+    <style>
+        .hover_container {
+      position: relative;
+      /*width: 50%;*/
+    }
+    
+    .hover_image {
+      opacity: 1;
+      display: black;
+      width: 100%;
+      height: auto;
+      transition: .5s ease;
+      backface-visibility: hidden;
+    }
+    
+    .middle {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 30%;
+      left: -5%;
+      /*transform: translate(-50%, -50%);*/
+      /*-ms-transform: translate(-50%, -50%);*/
+      text-align: center;
+    }
+    
+    
+    
+    
+    .hover_container:hover .hover_image .img_fluid {
+      opacity: 0.3;
+      -webkit-transform: scale(1.2);
+      /*-webkit-transition: transform 3.5s;*/
+    }
+    
+    .hover_container:hover .middle {
+      opacity: 1;
+    }
+    
+    .text {
+      /*background-color: #4CAF50;*/
+      /*z-index: 1;*/
+      color: white;
+      font-size: 16px;
+      padding: 16px 32px;
+    }
+    
+    
+    .carousel-item img {
+        object-fit: cover;
+    }
+    
+    
+        .img-fluid {
+            width: 95%;
+            
+            /*-webkit-transform: scale(1.2);*/
+        }
+    
+    #highestCarousel img {
+      object-fit: cover;
+      /*width: 100%;*/
+      /*height: 100%;*/
+      display: block;
+    }
+    
+    #highestCarousel .col-2:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: -webkit-linear-gradient(bottom, rgba(0,0,0, 0.6) 30%,rgba(0, 0, 0, 0.2) 100%) !important;
+    }
+    
+    .carousel-control-prev, .carousel-control-next {
+        width: 50px;
+    }
+    
+    .modal-backdrop {
+        z-index: 0;
+    }
+    </style>
+{% endblock %}
+
+{% block content %}
+{% include 'movies/_mainAD.html' %}
+{% include 'movies/_highest.html' %}
+{% include 'movies/_popularity.html' %}
+{% if user_movie %}
+{% include 'movies/_user_movie.html' %}
+{% endif %}
+{% if following_saw %}
+{% include 'movies/_following_saw.html' %}
+{% endif %}
+{% if favorite_genre %}
+{% include 'movies/_favorite_genre.html' %}
+{% endif %}
+
+    <ul id="search-results">
+      {% if statuss > 0 %}
+      <ul class="statuss">
+          {% for status in statuss %}
+              <li>
+                  <p>{{status}}</p>
+              </li>
+          {% endfor %}    
+      </ul>
+      {% else %}
+        <p>No status found.</p>
+      {% endif %}
+          
+      {% endblock %}
+    </ul>

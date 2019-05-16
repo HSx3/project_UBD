@@ -1,0 +1,75 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load bootstrap4 %}
+{% block head %}
+<style>
+    html,body{
+    background-image: url('https://images2.alphacoders.com/760/760735.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+    background-position: center center;
+    background-blend-mode: multiply;
+    overflow: hidden;
+    }
+    
+    .container{
+    height: 100%;
+    align-content: center;
+    }
+    
+    h3 {
+        font-size: 20px;
+        color: white;
+    }
+    
+    .form-group > .btn{
+        width: 300px;
+        height: 40px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 30px;
+        background-color: #dc3545;
+        border-radius: 10rem;
+        color: white;
+
+    }
+    .form-group > .btn:hover {
+        /*color: black;*/
+        background-color: #C82333;
+    }
+    
+    #sign {
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 300px;
+    background-color: rgba(0,0,0,0) !important;
+    }
+</style>
+{% endblock %}
+{% block content %}
+<div class="container">
+	<div class="d-flex justify-content-center h-100">
+	    <div id="sign">
+    		<h3>회원가입</h3>
+    		<form method="POST">
+    		    {% csrf_token %}
+    			<div class="input-group form-group">
+    				<input type="text" class="form-control" placeholder="이름(홍길동)" name='username'>
+    			</div>
+    			<div class="input-group form-group">
+    				<input type="password" class="form-control" placeholder="비밀번호(8자 이상)" name='password1'>
+    			</div>
+    			<div class="input-group form-group">
+    				<input type="password" class="form-control" placeholder="비밀번호 확인" name='password2'>
+    			</div>
+    			<div class="form-group">
+    			    <input type="submit" value="회원가입" class="btn btn-waring float-right login_btn">
+    			</div>
+    		</form>
+	    </div>
+	</div>
+</div>
+{% endblock %}

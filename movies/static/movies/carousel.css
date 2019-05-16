@@ -1,0 +1,8 @@
+.hover_container {
+    z-index: 0 !important;
+}
+
+.hover_parent {
+    z-index: 2 !important;
+    position: relative !important;
+}

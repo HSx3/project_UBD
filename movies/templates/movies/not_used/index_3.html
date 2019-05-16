@@ -1,0 +1,431 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load bootstrap4 %}
+{% load socialaccount %}
+
+{% block content %}
+    <!-- Music Charts Area Start -->
+    <!--<section class="razo-music-charts-area section-padding-80 bg-overlay bg-img jarallax" style="background-image: url(img/bg-img/34.jpg);">-->
+    <section class="razo-music-charts-area section-padding-80 bg-overlay bg-img jarallax" style="background-image: url({% static 'movies/img/bg-img/bg-avengers.jpg' %});">
+        <div class="container">
+            <div class="row">
+                <!-- Section Heading -->
+                <div class="col-12">
+                    <div class="section-heading text-center white">
+                        <h2>이 주의 화제작</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+
+                    <!-- Single Music Chart -->
+                    <div class="single-music-chart d-flex align-items-center justify-content-between wow fadeInUp" data-wow-delay="100ms">
+                        <!-- Music Content -->
+                        <div class="music-content d-flex align-items-center">
+                            <div class="sl-number">
+                                <h5>1.</h5>
+                            </div>
+                            <div class="music-thumb">
+                                <img src="https://movie-phinf.pstatic.net/20190417_250/1555465284425i6WQE_JPEG/movie_image.jpg" alt="">
+                            </div>
+                            <div class="audio-player">
+                                <audio preload="auto" controls>
+                                    <!--<source src="audio/dummy-audio.mp3">-->
+                                </audio>
+                            </div>
+                            <div class="music-title">
+                                <h5>어벤져스: 엔드게임</h5>
+                            </div>
+                        </div>
+                        <!-- Music Price -->
+                        <div class="music-price">
+                            <a href="#" class="btn razo-btn btn-2">12,154,666명</a>
+                        </div>
+                    </div>
+
+                    <!-- Single Music Chart -->
+                    <div class="single-music-chart d-flex align-items-center justify-content-between wow fadeInUp" data-wow-delay="300ms">
+                        <!-- Music Content -->
+                        <div class="music-content d-flex align-items-center">
+                            <div class="sl-number">
+                                <h5>2.</h5>
+                            </div>
+                            <div class="music-thumb">
+                                <!--<img src="{% static 'movies/img/bg-img/26.jpg' %}" alt="">-->
+                                <img src="https://movie-phinf.pstatic.net/20190424_53/1556091565705XDpwg_JPEG/movie_image.jpg" alt="">
+                            </div>
+                            <div class="audio-player">
+                                <audio preload="auto" controls>
+                                    <!--<source src="audio/dummy-audio.mp3">-->
+                                </audio>
+                            </div>
+                            <div class="music-title">
+                                <h5>명탐정 피카츄</h5>
+                                <!--<h5>Goodbye &amp; Good Riddance - <span>Juice World</span></h5>-->
+                            </div>
+                        </div>
+                        <!-- Music Price -->
+                        <div class="music-price">
+                            <a href="#" class="btn razo-btn btn-2">250,288명</a>
+                        </div>
+                    </div>
+
+                    <!-- Single Music Chart -->
+                    <div class="single-music-chart d-flex align-items-center justify-content-between wow fadeInUp" data-wow-delay="500ms">
+                        <!-- Music Content -->
+                        <div class="music-content d-flex align-items-center">
+                            <div class="sl-number">
+                                <h5>3.</h5>
+                            </div>
+                            <div class="music-thumb">
+                                <img src="https://movie-phinf.pstatic.net/20190419_4/15556641782554xyEQ_JPEG/movie_image.jpg" alt="">
+                            </div>
+                            <div class="audio-player">
+                                <audio preload="auto" controls>
+                                    <!--<source src="audio/dummy-audio.mp3">-->
+                                </audio>
+                            </div>
+                            <div class="music-title">
+                                <h5>고양이 여행 리포트</h5>
+                            </div>
+                        </div>
+                        <!-- Music Price -->
+                        <div class="music-price">
+                            <a href="#" class="btn razo-btn btn-2">4,609명</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="view-more-button text-center">
+                        <a href="{% url 'movies:list' %}" class="btn razo-btn mt-50">View More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Music Charts Area End -->
+
+    <!-- Music Charts Portfolio Area Start -->
+    <section class="razo-charts-portfolio-area section-padding-80">
+        <div class="container">
+            <div class="row">
+
+                <!-- Single Charts Portfolio -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-charts-portfolio mb-30">
+                        <img src="img/bg-img/35.jpg" alt="">
+                        <!-- Overlay -->
+                        <div class="overlay-content">
+                            <div class="text-center">
+                                <h5>Screaming Females</h5>
+                                <p>January 15, 2018</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Charts Portfolio -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-charts-portfolio mb-30">
+                        <img src="img/bg-img/36.jpg" alt="">
+                        <!-- Overlay -->
+                        <div class="overlay-content">
+                            <div class="text-center">
+                                <h5>Screaming Females</h5>
+                                <p>January 15, 2018</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Charts Portfolio -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-charts-portfolio mb-30">
+                        <img src="img/bg-img/37.jpg" alt="">
+                        <!-- Overlay -->
+                        <div class="overlay-content">
+                            <div class="text-center">
+                                <h5>Screaming Females</h5>
+                                <p>January 15, 2018</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Charts Portfolio -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-charts-portfolio mb-30">
+                        <img src="img/bg-img/38.jpg" alt="">
+                        <!-- Overlay -->
+                        <div class="overlay-content">
+                            <div class="text-center">
+                                <h5>Screaming Females</h5>
+                                <p>January 15, 2018</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Charts Portfolio -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-charts-portfolio mb-30">
+                        <img src="img/bg-img/39.jpg" alt="">
+                        <!-- Overlay -->
+                        <div class="overlay-content">
+                            <div class="text-center">
+                                <h5>Screaming Females</h5>
+                                <p>January 15, 2018</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Charts Portfolio -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-charts-portfolio mb-30">
+                        <img src="img/bg-img/40.jpg" alt="">
+                        <!-- Overlay -->
+                        <div class="overlay-content">
+                            <div class="text-center">
+                                <h5>Screaming Females</h5>
+                                <p>January 15, 2018</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Charts Portfolio -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-charts-portfolio mb-30">
+                        <img src="img/bg-img/41.jpg" alt="">
+                        <!-- Overlay -->
+                        <div class="overlay-content">
+                            <div class="text-center">
+                                <h5>Screaming Females</h5>
+                                <p>January 15, 2018</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Charts Portfolio -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-charts-portfolio mb-30">
+                        <img src="img/bg-img/42.jpg" alt="">
+                        <!-- Overlay -->
+                        <div class="overlay-content">
+                            <div class="text-center">
+                                <h5>Screaming Females</h5>
+                                <p>January 15, 2018</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Charts Portfolio -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-charts-portfolio mb-30">
+                        <img src="img/bg-img/43.jpg" alt="">
+                        <!-- Overlay -->
+                        <div class="overlay-content">
+                            <div class="text-center">
+                                <h5>Screaming Females</h5>
+                                <p>January 15, 2018</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="view-more-button text-center">
+                        <a href="#" class="btn razo-btn mt-30">View More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Music Charts Portfolio Area End -->
+
+    <!-- Footer Area Start -->
+    <footer class="footer-area">
+        <!-- Main Footer Area -->
+        <div class="main-footer-area section-padding-80-0">
+            <div class="container">
+                <div class="row justify-content-between">
+
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                        <div class="single-footer-widget mb-80">
+                            <!-- Footer Logo -->
+                            <a href="#" class="footer-logo"><img src="img/core-img/logo2.png" alt=""></a>
+
+                            <p class="mb-30">Lorem ipsum dolor sit amet, consectet adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                            <!-- Footer Content -->
+                            <div class="footer-content">
+
+                                <!-- Single Contact Info -->
+                                <div class="single-contact-info d-flex">
+                                    <div class="icon">
+                                        <i class="icon_pin"></i>
+                                    </div>
+                                    <div class="text">
+                                        <p>24 No. Amazing Valley, Aewsome St. New York, USA</p>
+                                    </div>
+                                </div>
+
+                                <!-- Single Contact Info -->
+                                <div class="single-contact-info d-flex">
+                                    <div class="icon">
+                                        <i class="icon_phone"></i>
+                                    </div>
+                                    <div class="text">
+                                        <p>+11 123 4567890</p>
+                                    </div>
+                                </div>
+
+                                <!-- Single Contact Info -->
+                                <div class="single-contact-info d-flex">
+                                    <div class="icon">
+                                        <i class="icon_mail_alt"></i>
+                                    </div>
+                                    <div class="text">
+                                        <p>info.colorlib@gmail.com</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                        <div class="single-footer-widget mb-80">
+
+                            <!-- Widget Title -->
+                            <h4 class="widget-title">Twitter Feed</h4>
+
+                            <!-- Single Twitter Feed -->
+                            <div class="single-twitter-feed d-flex">
+                                <div class="tweet-icon">
+                                    <i class="fa fa-twitter"></i>
+                                </div>
+                                <div class="tweet">
+                                    <p><a href="#">Kerem Suer</a> @kerem American conducts it first ever done strike Qaeda</p>
+                                </div>
+                            </div>
+
+                            <!-- Single Twitter Feed -->
+                            <div class="single-twitter-feed d-flex">
+                                <div class="tweet-icon">
+                                    <i class="fa fa-twitter"></i>
+                                </div>
+                                <div class="tweet">
+                                    <p><a href="#">Axel Hervelle</a> @axel_hervelle Tens of thousands attend rallies held in D.C.</p>
+                                </div>
+                            </div>
+
+                            <!-- Single Twitter Feed -->
+                            <div class="single-twitter-feed d-flex">
+                                <div class="tweet-icon">
+                                    <i class="fa fa-twitter"></i>
+                                </div>
+                                <div class="tweet">
+                                    <p><a href="#">Chris Pratt</a> @chris_pratt Hundreds of protesters shut down meeting.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-md-4 col-xl-3">
+                        <div class="single-footer-widget mb-80">
+                            <!-- Widget Title -->
+                            <h4 class="widget-title">Instagram</h4>
+
+                            <!-- Instagram Area -->
+                            <div class="razo-instagram-area d-flex flex-wrap">
+                                <!-- Single Instagram Feed -->
+                                <div class="single-instagram-feed">
+                                    <a href="#"><img src="img/bg-img/2.jpg" alt=""></a>
+                                </div>
+
+                                <!-- Single Instagram Feed -->
+                                <div class="single-instagram-feed">
+                                    <a href="#"><img src="img/bg-img/3.jpg" alt=""></a>
+                                </div>
+
+                                <!-- Single Instagram Feed -->
+                                <div class="single-instagram-feed">
+                                    <a href="#"><img src="img/bg-img/4.jpg" alt=""></a>
+                                </div>
+
+                                <!-- Single Instagram Feed -->
+                                <div class="single-instagram-feed">
+                                    <a href="#"><img src="img/bg-img/5.jpg" alt=""></a>
+                                </div>
+
+                                <!-- Single Instagram Feed -->
+                                <div class="single-instagram-feed">
+                                    <a href="#"><img src="img/bg-img/6.jpg" alt=""></a>
+                                </div>
+
+                                <!-- Single Instagram Feed -->
+                                <div class="single-instagram-feed">
+                                    <a href="#"><img src="img/bg-img/7.jpg" alt=""></a>
+                                </div>
+
+                                <!-- Single Instagram Feed -->
+                                <div class="single-instagram-feed">
+                                    <a href="#"><img src="img/bg-img/8.jpg" alt=""></a>
+                                </div>
+
+                                <!-- Single Instagram Feed -->
+                                <div class="single-instagram-feed">
+                                    <a href="#"><img src="img/bg-img/9.jpg" alt=""></a>
+                                </div>
+
+                                <!-- Single Instagram Feed -->
+                                <div class="single-instagram-feed">
+                                    <a href="#"><img src="img/bg-img/10.jpg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Main Footer Area End -->
+        
+        <!-- Copywrite Text -->
+        <div class="copywrite-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <!-- Copywrite Text -->
+                        <div class="copywrite-text">
+                            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Area End -->
+
+
+    
+  
+
+{% endblock %}

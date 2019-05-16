@@ -1,0 +1,103 @@
+{% load static %}
+<nav class="navbar navbar-expand-lg sticky-top">
+        <a class="navbar-brand text-white my-auto ml-5" href="{% url 'movies:index' %}">
+            <p class='my-auto' style="font-size:30px;"><img src="{% static 'movies/img/logo/logo3.JPG' %}" alt=""> 영복동</p>
+        </a>
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        {% if user.is_authenticated %}
+        <div class="collapse navbar-collapse" id='navbarNavDropdown'>
+            <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'movies:index' %}">홈</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'movies:evaluate' %}">평가하기</a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">장르</a>
+                        <ul class="dropdown-menu multi-column columns-3">
+                        <div class="row">
+    			            <div class="col-lg-4">
+    				            <ul class="multi-column-dropdown">
+    					            <a class="dropdown-item" href="#">액션</a>
+    					            <a class="dropdown-item" href="#">모험</a>
+    					            <a class="dropdown-item" href="#">애니메이션</a>
+    					            <a class="dropdown-item" href="#">코미디</a>
+    					            <a class="dropdown-item" href="#">범죄</a>
+    					            <a class="dropdown-item" href="#">다큐멘터리</a>
+    					            <a class="dropdown-item" href="#">드라마</a>
+    				            </ul>
+    			            </div>
+    			            <div class="col-lg-4">
+    				            <ul class="multi-column-dropdown">
+    					            <a class="dropdown-item" href="#">가족</a>
+    					            <a class="dropdown-item" href="#">판타지</a>
+    					            <a class="dropdown-item" href="#">역사</a>
+    					            <a class="dropdown-item" href="#">공포</a>
+    					            <a class="dropdown-item" href="#">음악</a>
+    					            <a class="dropdown-item" href="#">미스터리</a>
+    				            </ul>
+    			            </div>
+    			            <div class="col-lg-4">
+    				            <ul class="multi-column-dropdown">
+    					            <a class="dropdown-item" href="#">로맨스</a>
+    					            <a class="dropdown-item" href="#">SF</a>
+    					            <a class="dropdown-item" href="#">TV 영화</a>
+    					            <a class="dropdown-item" href="#">스릴러</a>
+    					            <a class="dropdown-item" href="#">전쟁</a>
+    					            <a class="dropdown-item" href="#">서부</a>
+    				            </ul>
+    			            </div>
+    		            </div>
+    		            </ul>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mr-5 ml-auto">
+                    <li class="nav-item d-flex align-items-center">
+                        <form method="POST">
+                        {% csrf_token %}
+                        <input id='searchMovie' class="form-control" type="search" placeholder="영화 검색" aria-label="Search">
+                        </form>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'movies:wishes' %}">보고싶어요</a>
+                    </li>
+                <li class="nav-item dropdown justify-content-end">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ user }}</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="{% url 'accounts:logout' %}">로그아웃</a>
+                        <a class="dropdown-item" href="{% url 'accounts:people' user.pk %}">프로필</a>
+                        <!--<a class="dropdown-item" href="{% url 'accounts:login' %}">로그인</a>-->
+                        
+                    </div>
+                </li>
+            </ul>
+            {% else %}
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <span class="badge badge-pill badge-light"><a class="nav-link" href="{% url 'accounts:signup' %}">회원가입</a></span>
+                </li>
+            </ul>
+        </div>
+        {% endif %}
+    </nav>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script>
+        $('#searchMovie').keyup(function() {
+    $('#searchMovie').each(function() {
+                var searching = $('#searchMovie').val()
+                axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest'
+                axios.defaults.xsrfCookieName = 'csrftoken'
+                axios.defaults.xsrfHeaderName = 'X-CSRFToken'
+                axios.post('/movies/search/',
+                { title: searching })
+                    .then(response => {
+                        console.log(response)
+                    })
+                    .catch(error => console.log(error))
+                });
+             });
+    </script>

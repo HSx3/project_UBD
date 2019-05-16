@@ -1,0 +1,88 @@
+{% extends 'base.html' %}
+{% block head %}
+    <style>
+        /*p {*/
+        /*    color: white;*/
+        /*}*/
+        .container {
+            color: white;
+            /*background-image: url("{{ movie.poster_url }}");*/
+            
+        }
+        
+        hr{ 
+            height: 1px;
+            color: white;
+            background-color: white;
+            border: none;
+        }
+        
+    </style>
+{% endblock %}
+{% block content %}
+<div class="container">
+    <br>
+    <h1>{{ post.title }}</h1>
+    <!--<p>{{ post.content }}</p>-->
+    {% if post.spoiler %}
+        <!--<p>이 코멘트에는 스포일러가 있어요. <a href="" class="text-danger font-weight-bold">보기</a></p>-->
+        <input class="spoilerbutton text-danger font-weight-bold" type="button" value="스포일러가 포함된 글입니다. 확인하려면 클릭하세요." onclick="this.value=this.value=='스포일러가 포함된 글입니다. 확인하려면 클릭하세요.'?'{{ post.content }}':'스포일러가 포함된 글입니다. 확인하려면 클릭하세요.';">
+        <div class="spoiler"><div>
+        <!--<p>test  </p>-->
+        <!--<p>  </p>-->
+        </div></div>
+        
+        <!--<button type="button" class="btn btn-outline-light">{{ score.review }}</button>-->
+        <!--<p>스포일러가 포함된 댓글입니다. 댓글을 보려면 마우스를 올려주세요.</p>-->
+    {% else %}
+        <p>{{ post.content }}</p>
+    {% endif %}
+    
+    
+    <form action="{% url 'posts:update' post.pk %}" style="display:inline;">
+        <input type="submit" value="수정"/>
+    </form>
+    <form action="{% url 'posts:delete' post.pk %}" method="POST" style="display:inline;">
+        {% csrf_token %}
+        <input type="submit" value="삭제"/>
+    </form>
+    <form action="{% url 'posts:index' post.movie_id %}" style="display:inline;">
+        <input type="submit" value="뒤로가기"/>
+    </form>
+    
+    <!--<span class="custom-br"></span>-->
+    <hr style="color:white;">
+    {% for comment in post.comment_set.all %}
+        <b>{{ comment.user }}</b>:
+        {% if comment.spoiler %}
+            <input class="spoilerbutton text-danger font-weight-bold" type="button" value="스포일러가 포함된 댓글입니다. 확인하려면 클릭하세요." onclick="this.value=this.value=='스포일러가 포함된 댓글입니다. 확인하려면 클릭하세요.'?'{{ comment.content }}':'스포일러가 포함된 댓글입니다. 확인하려면 클릭하세요.';">
+            <div class="spoiler"><div>
+            </div></div>
+        {% else %}
+            <span>{{ comment.content }}</span>
+        {% endif %}
+        {% if comment.user == request.user %}
+            <form action="{% url 'posts:comment_delete' post.pk comment.pk %}" method="POST" style="display:inline;">
+                {% csrf_token %}
+                <input type="submit" value="삭제"/>
+            </form>
+        {% endif %}
+        
+        <span class="text-muted">{{ post.comment_set.all | length }}</span>
+        <span class="text-muted">{{ comment.created|timesince }} 전</span>
+        <br>
+    {% endfor %}
+    <hr style="color:white;">
+    <!--<span class="custom-br"></span>-->
+    
+    {% if user.is_authenticated %}
+        <form action="{% url 'posts:comment_create' post.pk %}" method="POST">
+            {% csrf_token %}
+            {{ comment_form }}
+            <input type="submit" value="작성하기"/>
+        </form>
+    {% else %}
+        <a href="{% url 'accounts:login' %}"><p>로그인이 필요합니다.</p></a>
+    {% endif %}
+</div>
+{% endblock %}

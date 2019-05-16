@@ -1,0 +1,6051 @@
+[
+    {
+        "pk": 19272,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                299534,
+                299536,
+                271110
+            ],
+            "name": "Joe Russo",
+            "profile_path": "https://image.tmdb.org/t/p/original/679Os4tbY1YsU01KdLhM1NPXNWu.jpg"
+        }
+    },
+    {
+        "pk": 19271,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                299534,
+                299536,
+                271110
+            ],
+            "name": "Anthony Russo",
+            "profile_path": "https://image.tmdb.org/t/p/original/fIa5wXK7MHAquhefTr3TcnZiYy8.jpg"
+        }
+    },
+    {
+        "pk": 1424064,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                543103
+            ],
+            "name": "Kyouhei Yamaguchi",
+            "profile_path": "https://image.tmdb.org/t/p/original/uAFzPnQsnGzkR9KlU260TsGMFI1.jpg"
+        }
+    },
+    {
+        "pk": 53068,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                299537
+            ],
+            "name": "Ryan Fleck",
+            "profile_path": "https://image.tmdb.org/t/p/original/z5EL2oWKEVUgFb6wjoX0BSxthsJ.jpg"
+        }
+    },
+    {
+        "pk": 53069,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                299537
+            ],
+            "name": "Anna Boden",
+            "profile_path": "https://image.tmdb.org/t/p/original/h5YMXdI42zb0uqn5UJHF4fT9AER.jpg"
+        }
+    },
+    {
+        "pk": 57581,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                456740,
+                11880
+            ],
+            "name": "Neil Marshall",
+            "profile_path": "https://image.tmdb.org/t/p/original/Au5p9cFlj2XVoVIECQ40ruOp1Qz.jpg"
+        }
+    },
+    {
+        "pk": 1586194,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                537915
+            ],
+            "name": "Jenny Gage",
+            "profile_path": "https://image.tmdb.org/t/p/original/wdvHWFssy6KAliSrY89pvszBlmO.jpg"
+        }
+    },
+    {
+        "pk": 1586194,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                537915
+            ],
+            "name": "Jenny Gage",
+            "profile_path": "https://image.tmdb.org/t/p/original/wdvHWFssy6KAliSrY89pvszBlmO.jpg"
+        }
+    },
+    {
+        "pk": 1586194,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                537915
+            ],
+            "name": "Jenny Gage",
+            "profile_path": "https://image.tmdb.org/t/p/original/wdvHWFssy6KAliSrY89pvszBlmO.jpg"
+        }
+    },
+    {
+        "pk": 1297518,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                495925
+            ],
+            "name": "Kazuaki Imai",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 65630,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                447404
+            ],
+            "name": "Rob Letterman",
+            "profile_path": "https://image.tmdb.org/t/p/original/v2GPTQ41ZqHtML8W1ft3UJej5xA.jpg"
+        }
+    },
+    {
+        "pk": 95972,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                438650
+            ],
+            "name": "Hans Petter Moland",
+            "profile_path": "https://image.tmdb.org/t/p/original/xPUm6zfCrmDZb8fkby2zzF6sp8z.jpg"
+        }
+    },
+    {
+        "pk": 1302082,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                287947
+            ],
+            "name": "David F. Sandberg",
+            "profile_path": "https://image.tmdb.org/t/p/original/10p2i4OW0JWAbnOb7yMLUEGdSqM.jpg"
+        }
+    },
+    {
+        "pk": 20739,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                487297
+            ],
+            "name": "Adam Shankman",
+            "profile_path": "https://image.tmdb.org/t/p/original/alYdaxIYDvJZFnVrM2n01jcafKo.jpg"
+        }
+    },
+    {
+        "pk": 11614,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                450465,
+                381288
+            ],
+            "name": "M. Night Shyamalan",
+            "profile_path": "https://image.tmdb.org/t/p/original/shV9dGXMj7zt7myRFkR6FR51LYu.jpg"
+        }
+    },
+    {
+        "pk": 12891,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                24428,
+                99861
+            ],
+            "name": "Joss Whedon",
+            "profile_path": "https://image.tmdb.org/t/p/original/dTiVsuaTVTeGmvkhcyJvKp2A5kr.jpg"
+        }
+    },
+    {
+        "pk": 1056121,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                284054
+            ],
+            "name": "Ryan Coogler",
+            "profile_path": "https://image.tmdb.org/t/p/original/ddGaRFrlDdyR0OBTd1hAMWnfvim.jpg"
+        }
+    },
+    {
+        "pk": 69797,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                166428,
+                82702,
+                10191
+            ],
+            "name": "Dean DeBlois",
+            "profile_path": "https://image.tmdb.org/t/p/original/vofzPcdNUzUD1xqaMUwMAJRgFiy.jpg"
+        }
+    },
+    {
+        "pk": 88857,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                468224
+            ],
+            "name": "Dome Karukoski",
+            "profile_path": "https://image.tmdb.org/t/p/original/4lkhkvoVu5pUQE04kQS27Ynncoe.jpg"
+        }
+    },
+    {
+        "pk": 39189,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                445629
+            ],
+            "name": "Stephen Merchant",
+            "profile_path": "https://image.tmdb.org/t/p/original/A70Gtg3kkTeCBgtFkSRPu9qfPQu.jpg"
+        }
+    },
+    {
+        "pk": 15218,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                283995,
+                118340
+            ],
+            "name": "James Gunn",
+            "profile_path": "https://image.tmdb.org/t/p/original/2w2mprJhSucgA8pbM5BRdBKl3p9.jpg"
+        }
+    },
+    {
+        "pk": 15218,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                283995,
+                118340
+            ],
+            "name": "James Gunn",
+            "profile_path": "https://image.tmdb.org/t/p/original/2w2mprJhSucgA8pbM5BRdBKl3p9.jpg"
+        }
+    },
+    {
+        "pk": 150630,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                532671
+            ],
+            "name": "Nicholas McCarthy",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 7879,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                920
+            ],
+            "name": "John Lasseter",
+            "profile_path": "https://image.tmdb.org/t/p/original/7EdqiNbr4FRjIhKHyPPdFfEEEFG.jpg"
+        }
+    },
+    {
+        "pk": 55934,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                284053
+            ],
+            "name": "Taika Waititi",
+            "profile_path": "https://image.tmdb.org/t/p/original/zCLBXGo5BS2e27srDBa5WpRnKul.jpg"
+        }
+    },
+    {
+        "pk": 1100748,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                535167
+            ],
+            "name": "Frant Gwo",
+            "profile_path": "https://image.tmdb.org/t/p/original/ifiWmvaHho8kmjyt9ZCBwd9j6c4.jpg"
+        }
+    },
+    {
+        "pk": 69237,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                457799
+            ],
+            "name": "Joe Berlinger",
+            "profile_path": "https://image.tmdb.org/t/p/original/nm1QiopjjZLypVQUjJkJ3SkEGnB.jpg"
+        }
+    },
+    {
+        "pk": 1290272,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                157433
+            ],
+            "name": "Dennis Widmyer",
+            "profile_path": "https://image.tmdb.org/t/p/original/wZbN0JZd6kbGAHRglEH8u7CfGJ0.jpg"
+        }
+    },
+    {
+        "pk": 1154561,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                157433
+            ],
+            "name": "Kevin Kölsch",
+            "profile_path": "https://image.tmdb.org/t/p/original/4494wQuVUThEzLBAFkEPhXgpUyS.jpg"
+        }
+    },
+    {
+        "pk": 366,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                263115
+            ],
+            "name": "James Mangold",
+            "profile_path": "https://image.tmdb.org/t/p/original/1gt0VmCyBHhQLKhaBDCEIwvRWe.jpg"
+        }
+    },
+    {
+        "pk": 366,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                263115
+            ],
+            "name": "James Mangold",
+            "profile_path": "https://image.tmdb.org/t/p/original/1gt0VmCyBHhQLKhaBDCEIwvRWe.jpg"
+        }
+    },
+    {
+        "pk": 1495940,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                576393
+            ],
+            "name": "Frankie Chen",
+            "profile_path": "https://image.tmdb.org/t/p/original/3jfec79vr7xVdgW8qJgTdheYXyt.jpg"
+        }
+    },
+    {
+        "pk": 936670,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                324857
+            ],
+            "name": "Bob Persichetti",
+            "profile_path": "https://image.tmdb.org/t/p/original/kk1cN73iulyn3G4PvZ01TnsW4gN.jpg"
+        }
+    },
+    {
+        "pk": 151007,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                324857
+            ],
+            "name": "Peter Ramsey",
+            "profile_path": "https://image.tmdb.org/t/p/original/9708uu7CeTLSzm69ykdYxgPcd2S.jpg"
+        }
+    },
+    {
+        "pk": 59918,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                324857
+            ],
+            "name": "Rodney Rothman",
+            "profile_path": "https://image.tmdb.org/t/p/original/3GlFmeP4me6uxZGVsmnC0d4A5BV.jpg"
+        }
+    },
+    {
+        "pk": 1033661,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                424783
+            ],
+            "name": "Travis Knight",
+            "profile_path": "https://image.tmdb.org/t/p/original/rn207qabc6oJ8JFSH7ekS9hYDXb.jpg"
+        }
+    },
+    {
+        "pk": 11181,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                10195,
+                150689
+            ],
+            "name": "Kenneth Branagh",
+            "profile_path": "https://image.tmdb.org/t/p/original/bmpGjbqvAVNOK3ggiuET2Jl96tZ.jpg"
+        }
+    },
+    {
+        "pk": 2127,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                297802
+            ],
+            "name": "James Wan",
+            "profile_path": "https://image.tmdb.org/t/p/original/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+        }
+    },
+    {
+        "pk": 59026,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                363088,
+                102899
+            ],
+            "name": "Peyton Reed",
+            "profile_path": "https://image.tmdb.org/t/p/original/aucXNycAtFREMIKr6ikmHvd2Mmp.jpg"
+        }
+    },
+    {
+        "pk": 64151,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                280217,
+                55301
+            ],
+            "name": "Mike Mitchell",
+            "profile_path": "https://image.tmdb.org/t/p/original/thoCDW89KWWaSYrbvUX0adPcg8S.jpg"
+        }
+    },
+    {
+        "pk": 11694,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                137113
+            ],
+            "name": "Doug Liman",
+            "profile_path": "https://image.tmdb.org/t/p/original/cWpE3dSbskWOea4kAGzQpNIkfxM.jpg"
+        }
+    },
+    {
+        "pk": 91493,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                449562
+            ],
+            "name": "Chris Addison",
+            "profile_path": "https://image.tmdb.org/t/p/original/cCVVvQIuVyNkUTDg34lgHZ9fuCr.jpg"
+        }
+    },
+    {
+        "pk": 510,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                329996
+            ],
+            "name": "Tim Burton",
+            "profile_path": "https://image.tmdb.org/t/p/original/yHEHAHQpN9PfSEQx1UxZPczhcAi.jpg"
+        }
+    },
+    {
+        "pk": 231084,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                485811
+            ],
+            "name": "Chee Keong Cheung",
+            "profile_path": "https://image.tmdb.org/t/p/original/gxvTUIuvWkoQa9BpapQZiha4R8K.jpg"
+        }
+    },
+    {
+        "pk": 74619,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                491418
+            ],
+            "name": "Sean Anders",
+            "profile_path": "https://image.tmdb.org/t/p/original/o3DDfIrbhETjJxuORuTEbm29DIU.jpg"
+        }
+    },
+    {
+        "pk": 1293994,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                315635,
+                429617
+            ],
+            "name": "Jon Watts",
+            "profile_path": "https://image.tmdb.org/t/p/original/5CKKBhuScdsHs2KPBBx5pveMOQQ.jpg"
+        }
+    },
+    {
+        "pk": 108,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                122917,
+                120,
+                122,
+                121,
+                49051
+            ],
+            "name": "Peter Jackson",
+            "profile_path": "https://image.tmdb.org/t/p/original/kSrfI3TbMdIMmPVOflLQ56OfscB.jpg"
+        }
+    },
+    {
+        "pk": 84124,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                526050
+            ],
+            "name": "Tina Gordon Chism",
+            "profile_path": "https://image.tmdb.org/t/p/original/2Vho1qUJBLUPlgh3c4bnXTPKZUs.jpg"
+        }
+    },
+    {
+        "pk": 1607672,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                480414
+            ],
+            "name": "Michael Chaves",
+            "profile_path": "https://image.tmdb.org/t/p/original/SOd71vk0kx5cJygzCifEOMGjRW.jpg"
+        }
+    },
+    {
+        "pk": 1306608,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                522681
+            ],
+            "name": "Adam Robitel",
+            "profile_path": "https://image.tmdb.org/t/p/original/ujwEsVKMCN0JD6Mx2PlfSqmbxd1.jpg"
+        }
+    },
+    {
+        "pk": 19850,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                500852,
+                8966
+            ],
+            "name": "Catherine Hardwicke",
+            "profile_path": "https://image.tmdb.org/t/p/original/x8qMlCXpXlM66hOZ7dSMMWnojNo.jpg"
+        }
+    },
+    {
+        "pk": 9888,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                376865
+            ],
+            "name": "Claire Denis",
+            "profile_path": "https://image.tmdb.org/t/p/original/v3dZPE1f1ICeF3m2GYYFvwuqvfT.jpg"
+        }
+    },
+    {
+        "pk": 54040,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                500682
+            ],
+            "name": "John Lee Hancock",
+            "profile_path": "https://image.tmdb.org/t/p/original/1eCqzsuFp0xKGeTEErXyEifN82U.jpg"
+        }
+    },
+    {
+        "pk": 37932,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                337339,
+                8409
+            ],
+            "name": "F. Gary Gray",
+            "profile_path": "https://image.tmdb.org/t/p/original/6p11B9eBjvoiAY5Nyoao6Pm7a2J.jpg"
+        }
+    },
+    {
+        "pk": 15277,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                1726,
+                10138
+            ],
+            "name": "Jon Favreau",
+            "profile_path": "https://image.tmdb.org/t/p/original/sJSGJwGa3hjMlJNUCxF7wQwo7fb.jpg"
+        }
+    },
+    {
+        "pk": 4945,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                1771
+            ],
+            "name": "Joe Johnston",
+            "profile_path": "https://image.tmdb.org/t/p/original/fbGZo6CG9Z9zKFh8D5wHunyu7gJ.jpg"
+        }
+    },
+    {
+        "pk": 4945,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                1771
+            ],
+            "name": "Joe Johnston",
+            "profile_path": "https://image.tmdb.org/t/p/original/fbGZo6CG9Z9zKFh8D5wHunyu7gJ.jpg"
+        }
+    },
+    {
+        "pk": 4945,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                1771
+            ],
+            "name": "Joe Johnston",
+            "profile_path": "https://image.tmdb.org/t/p/original/fbGZo6CG9Z9zKFh8D5wHunyu7gJ.jpg"
+        }
+    },
+    {
+        "pk": 291263,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                458723
+            ],
+            "name": "Jordan Peele",
+            "profile_path": "https://image.tmdb.org/t/p/original/9rOEfvKUInuUpJ6MMhiC8Tch1WM.jpg"
+        }
+    },
+    {
+        "pk": 1481804,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                566555
+            ],
+            "name": "Tomoka Nagaoka",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 1196401,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                390634
+            ],
+            "name": "Tomonori Sudou",
+            "profile_path": "https://image.tmdb.org/t/p/original/eTPynNLvv0K8tHbsIWaAaPVhWZR.jpg"
+        }
+    },
+    {
+        "pk": 128276,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                375588
+            ],
+            "name": "Otto Bathurst",
+            "profile_path": "https://image.tmdb.org/t/p/original/vojDKrTe52mnPrYSKUTOLWotEIN.jpg"
+        }
+    },
+    {
+        "pk": 11343,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                338952,
+                12444,
+                675,
+                767,
+                12445
+            ],
+            "name": "David Yates",
+            "profile_path": "https://image.tmdb.org/t/p/original/fiIZNbwdK07ntpE2wpLRIMuSXEy.jpg"
+        }
+    },
+    {
+        "pk": 47005,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                76338,
+                87101
+            ],
+            "name": "Alan Taylor",
+            "profile_path": "https://image.tmdb.org/t/p/original/f8hPlHuaRw1py22wp2qqNRfVDMw.jpg"
+        }
+    },
+    {
+        "pk": 2294,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                399579
+            ],
+            "name": "Robert Rodriguez",
+            "profile_path": "https://image.tmdb.org/t/p/original/bPqRdLWWwpOT8sBdj9PWOzNgwou.jpg"
+        }
+    },
+    {
+        "pk": 54248,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                512196,
+                227348,
+                273477
+            ],
+            "name": "Christopher Landon",
+            "profile_path": "https://image.tmdb.org/t/p/original/421KrcuMkPQnKbIvdp2yyFE4D0I.jpg"
+        }
+    },
+    {
+        "pk": 40644,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                245891,
+                458156,
+                324552
+            ],
+            "name": "Chad Stahelski",
+            "profile_path": "https://image.tmdb.org/t/p/original/hr82USXEc8XWvdnH0TpyddMpi7j.jpg"
+        }
+    },
+    {
+        "pk": 36602,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                347375,
+                10029
+            ],
+            "name": "Peter Berg",
+            "profile_path": "https://image.tmdb.org/t/p/original/1pR16H0zqRG49ns8cYykYpodgGF.jpg"
+        }
+    },
+    {
+        "pk": 36602,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                347375,
+                10029
+            ],
+            "name": "Peter Berg",
+            "profile_path": "https://image.tmdb.org/t/p/original/1pR16H0zqRG49ns8cYykYpodgGF.jpg"
+        }
+    },
+    {
+        "pk": 1354171,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                287424
+            ],
+            "name": "Henry Hobson",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 91268,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                335983
+            ],
+            "name": "Ruben Fleischer",
+            "profile_path": "https://image.tmdb.org/t/p/original/y001RIxie7Vk3qMW3oLSFkjO1IA.jpg"
+        }
+    },
+    {
+        "pk": 10965,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                671,
+                672
+            ],
+            "name": "Chris Columbus",
+            "profile_path": "https://image.tmdb.org/t/p/original/2fHN78oumrJRM84UydgfVzj0YEl.jpg"
+        }
+    },
+    {
+        "pk": 155531,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                454294
+            ],
+            "name": "Joe Cornish",
+            "profile_path": "https://image.tmdb.org/t/p/original/yJNJ0haP69aPf3fhiCJXvlESDss.jpg"
+        }
+    },
+    {
+        "pk": 1704,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                22,
+                58
+            ],
+            "name": "Gore Verbinski",
+            "profile_path": "https://image.tmdb.org/t/p/original/bV0rGSPrK4AUvODjB3zMAwDdeIf.jpg"
+        }
+    },
+    {
+        "pk": 9032,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                424694,
+                127585,
+                246655
+            ],
+            "name": "Bryan Singer",
+            "profile_path": "https://image.tmdb.org/t/p/original/ts06thbCv9Ug2mNpcbcrmLGRL4Q.jpg"
+        }
+    },
+    {
+        "pk": 190,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                504172,
+                66
+            ],
+            "name": "Clint Eastwood",
+            "profile_path": "https://image.tmdb.org/t/p/original/n8h4ZHteFFXfmzUW6OEaPWanDnm.jpg"
+        }
+    },
+    {
+        "pk": 165787,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                404368,
+                269149
+            ],
+            "name": "Rich Moore",
+            "profile_path": "https://image.tmdb.org/t/p/original/oIAmkZf9LuJuMqR8zSchoD3FJT8.jpg"
+        }
+    },
+    {
+        "pk": 567562,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                404368
+            ],
+            "name": "Phil Johnston",
+            "profile_path": "https://image.tmdb.org/t/p/original/jCaUirgugytyigPpexIyUU1laLQ.jpg"
+        }
+    },
+    {
+        "pk": 567562,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                404368
+            ],
+            "name": "Phil Johnston",
+            "profile_path": "https://image.tmdb.org/t/p/original/jCaUirgugytyigPpexIyUU1laLQ.jpg"
+        }
+    },
+    {
+        "pk": 16847,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                395990
+            ],
+            "name": "Eli Roth",
+            "profile_path": "https://image.tmdb.org/t/p/original/eHBxgJXeDKiYZMbL3VgAf7i9wor.jpg"
+        }
+    },
+    {
+        "pk": 16847,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                395990
+            ],
+            "name": "Eli Roth",
+            "profile_path": "https://image.tmdb.org/t/p/original/eHBxgJXeDKiYZMbL3VgAf7i9wor.jpg"
+        }
+    },
+    {
+        "pk": 17496,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                440161
+            ],
+            "name": "Jacques Audiard",
+            "profile_path": "https://image.tmdb.org/t/p/original/dJ2XCySH5NKZTEEapYK3RaBtL61.jpg"
+        }
+    },
+    {
+        "pk": 1257827,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                301351
+            ],
+            "name": "Max Joseph",
+            "profile_path": "https://image.tmdb.org/t/p/original/kwBSbD2sRn34chAKR9me05wDtbg.jpg"
+        }
+    },
+    {
+        "pk": 1449727,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                579598
+            ],
+            "name": "Rejishh Midhila",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 1709468,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                442249
+            ],
+            "name": "Gerard McMurray",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 15358,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                218043
+            ],
+            "name": "Vic Armstrong",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 40684,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                383498
+            ],
+            "name": "David Leitch",
+            "profile_path": "https://image.tmdb.org/t/p/original/eVSgvAIsP6mwuVbbhVb4HkVvmsu.jpg"
+        }
+    },
+    {
+        "pk": 5281,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                487558
+            ],
+            "name": "Spike Lee",
+            "profile_path": "https://image.tmdb.org/t/p/original/2KOHXgk2uoRXl6u7V9xpAIo3uay.jpg"
+        }
+    },
+    {
+        "pk": 56501,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                298250
+            ],
+            "name": "Michael Spierig",
+            "profile_path": "https://image.tmdb.org/t/p/original/ecQPSEB9HP4LQ2cC4mhfzycZJ08.jpg"
+        }
+    },
+    {
+        "pk": 56502,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                298250
+            ],
+            "name": "Peter Spierig",
+            "profile_path": "https://image.tmdb.org/t/p/original/66rowkv57i9D2cyhrZPgoohw4VX.jpg"
+        }
+    },
+    {
+        "pk": 1066705,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                454983
+            ],
+            "name": "Vince Marcello",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 7316,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                263109
+            ],
+            "name": "Mark Burton",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 1244465,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                263109
+            ],
+            "name": "Richard Starzak",
+            "profile_path": "https://image.tmdb.org/t/p/original/o8Dm54LgHmsxkGmTRtmyKc1boHV.jpg"
+        }
+    },
+    {
+        "pk": 32277,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                3512
+            ],
+            "name": "Geoff Murphy",
+            "profile_path": "https://image.tmdb.org/t/p/original/h9qts2xTEQyaI6ICnEcyLU69y7W.jpg"
+        }
+    },
+    {
+        "pk": 55075,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                460019
+            ],
+            "name": "Jeff Wadlow",
+            "profile_path": "https://image.tmdb.org/t/p/original/cOTfT6Jmg5aG86UJpgqVM5pY9Wv.jpg"
+        }
+    },
+    {
+        "pk": 55499,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                284052
+            ],
+            "name": "Scott Derrickson",
+            "profile_path": "https://image.tmdb.org/t/p/original/2498q7kKjApqbUMh4WEMxbtSDjn.jpg"
+        }
+    },
+    {
+        "pk": 55499,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                284052
+            ],
+            "name": "Scott Derrickson",
+            "profile_path": "https://image.tmdb.org/t/p/original/2498q7kKjApqbUMh4WEMxbtSDjn.jpg"
+        }
+    },
+    {
+        "pk": 2662,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                1585
+            ],
+            "name": "Frank Capra",
+            "profile_path": "https://image.tmdb.org/t/p/original/hvPrtfKnJs9arck1zKGnG8uRkBC.jpg"
+        }
+    },
+    {
+        "pk": 525,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                157336,
+                155,
+                272,
+                27205
+            ],
+            "name": "Christopher Nolan",
+            "profile_path": "https://image.tmdb.org/t/p/original/zPvcQPnp3q6R9mqJGm8RENsXYY9.jpg"
+        }
+    },
+    {
+        "pk": 47506,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                446021
+            ],
+            "name": "Drew Goddard",
+            "profile_path": "https://image.tmdb.org/t/p/original/j5Le3QQljdGJ3kPAcjAZr9V4QUC.jpg"
+        }
+    },
+    {
+        "pk": 80602,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                464504
+            ],
+            "name": "Tyler Perry",
+            "profile_path": "https://image.tmdb.org/t/p/original/fdBvkrv4lSKZ97eDLpmjlK1Tnbx.jpg"
+        }
+    },
+    {
+        "pk": 56661,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                459992
+            ],
+            "name": "Jonathan Levine",
+            "profile_path": "https://image.tmdb.org/t/p/original/gfJOKZPSbpzls7FV0Ogv4IpEeXh.jpg"
+        }
+    },
+    {
+        "pk": 78160,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                361292
+            ],
+            "name": "Luca Guadagnino",
+            "profile_path": "https://image.tmdb.org/t/p/original/lO2GD4s6fRloZLEhsZgBlhJQasE.jpg"
+        }
+    },
+    {
+        "pk": 78160,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                361292
+            ],
+            "name": "Luca Guadagnino",
+            "profile_path": "https://image.tmdb.org/t/p/original/lO2GD4s6fRloZLEhsZgBlhJQasE.jpg"
+        }
+    },
+    {
+        "pk": 2034,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                627
+            ],
+            "name": "Danny Boyle",
+            "profile_path": "https://image.tmdb.org/t/p/original/b5qQpFHmgNyvV1t81ou17Jt2fRj.jpg"
+        }
+    },
+    {
+        "pk": 1,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                11
+            ],
+            "name": "George Lucas",
+            "profile_path": "https://image.tmdb.org/t/p/original/8qxin8urtFE0NqaZNFWOuV537bH.jpg"
+        }
+    },
+    {
+        "pk": 1419579,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                428078
+            ],
+            "name": "Christian Rivers",
+            "profile_path": "https://image.tmdb.org/t/p/original/qm9JrFiMFIkZCTAbM9scJVZIjOk.jpg"
+        }
+    },
+    {
+        "pk": 1003237,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                339877
+            ],
+            "name": "Dorota Kobiela",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 1466181,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                339877
+            ],
+            "name": "Hugh Welchman",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 51894,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                351286
+            ],
+            "name": "J. A. Bayona",
+            "profile_path": "https://image.tmdb.org/t/p/original/cnbbnS7K8Uu6yohAfSRHv5Kxc7r.jpg"
+        }
+    },
+    {
+        "pk": 57113,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                463684,
+                242582
+            ],
+            "name": "Dan Gilroy",
+            "profile_path": "https://image.tmdb.org/t/p/original/am569DiWC0blnbM98ZphiwBItsS.jpg"
+        }
+    },
+    {
+        "pk": 929825,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                407451
+            ],
+            "name": "Ava DuVernay",
+            "profile_path": "https://image.tmdb.org/t/p/original/84rc8I3Wf5zkCWGMNeTtmRekHW0.jpg"
+        }
+    },
+    {
+        "pk": 69416,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                11430
+            ],
+            "name": "Bradley Raymond",
+            "profile_path": "https://image.tmdb.org/t/p/original/jU7NyWtjGUh3YJSGOjHseTSSOou.jpg"
+        }
+    },
+    {
+        "pk": 69416,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                11430
+            ],
+            "name": "Bradley Raymond",
+            "profile_path": "https://image.tmdb.org/t/p/original/jU7NyWtjGUh3YJSGOjHseTSSOou.jpg"
+        }
+    },
+    {
+        "pk": 69416,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                11430
+            ],
+            "name": "Bradley Raymond",
+            "profile_path": "https://image.tmdb.org/t/p/original/jU7NyWtjGUh3YJSGOjHseTSSOou.jpg"
+        }
+    },
+    {
+        "pk": 6159,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                348350
+            ],
+            "name": "Ron Howard",
+            "profile_path": "https://image.tmdb.org/t/p/original/67WIgpOGIeb4NSN9yIxsOITbnns.jpg"
+        }
+    },
+    {
+        "pk": 140151,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                502292
+            ],
+            "name": "William Bindley",
+            "profile_path": "https://image.tmdb.org/t/p/original/7KWLEzEgfag8shGRQsbmmT9zEJl.jpg"
+        }
+    },
+    {
+        "pk": 1108,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                68721,
+                346910
+            ],
+            "name": "Shane Black",
+            "profile_path": "https://image.tmdb.org/t/p/original/lEyKmYizNVNLsOEgeaPFwX9MZoA.jpg"
+        }
+    },
+    {
+        "pk": 115128,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                489925
+            ],
+            "name": "Bo Burnham",
+            "profile_path": "https://image.tmdb.org/t/p/original/drc8vlHZ0wlyEqCus4BZpYY4CCX.jpg"
+        }
+    },
+    {
+        "pk": 1044250,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                460885
+            ],
+            "name": "Panos Cosmatos",
+            "profile_path": "https://image.tmdb.org/t/p/original/rGjZWiTtr21BZ1fpntREEuSnEqg.jpg"
+        }
+    },
+    {
+        "pk": 1090,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                562
+            ],
+            "name": "John McTiernan",
+            "profile_path": "https://image.tmdb.org/t/p/original/tknmquMIO2oAVUZ0vVX78ALHyaT.jpg"
+        }
+    },
+    {
+        "pk": 64877,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                12536
+            ],
+            "name": "Rod Daniel",
+            "profile_path": "https://image.tmdb.org/t/p/original/kun8t560f7kIy9kiRayG3E72ohi.jpg"
+        }
+    },
+    {
+        "pk": 67813,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                429300
+            ],
+            "name": "Baltasar Kormákur",
+            "profile_path": "https://image.tmdb.org/t/p/original/Aml85bUldhLbVubYBk38ag8JmVK.jpg"
+        }
+    },
+    {
+        "pk": 67813,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                429300
+            ],
+            "name": "Baltasar Kormákur",
+            "profile_path": "https://image.tmdb.org/t/p/original/Aml85bUldhLbVubYBk38ag8JmVK.jpg"
+        }
+    },
+    {
+        "pk": 122423,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                375262
+            ],
+            "name": "Yorgos Lanthimos",
+            "profile_path": "https://image.tmdb.org/t/p/original/p6ykeQGWagu0wkLUJZX5xVtAkG8.jpg"
+        }
+    },
+    {
+        "pk": 1299642,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                438799
+            ],
+            "name": "Julius Avery",
+            "profile_path": "https://image.tmdb.org/t/p/original/nK9ITHGuAWABC0q3fQUD4JQ9yQ1.jpg"
+        }
+    },
+    {
+        "pk": 1279781,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                244506
+            ],
+            "name": "Peter Sattler",
+            "profile_path": "https://image.tmdb.org/t/p/original/MBCBAoqZcqrUFqoJRSatktQf7a.jpg"
+        }
+    },
+    {
+        "pk": 17633,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                400650
+            ],
+            "name": "Rob Marshall",
+            "profile_path": "https://image.tmdb.org/t/p/original/4UUUna5fohwTxnEbuLOD0ZubWds.jpg"
+        }
+    },
+    {
+        "pk": 18899,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                450001,
+                11230
+            ],
+            "name": "Yuen Woo-ping",
+            "profile_path": "https://image.tmdb.org/t/p/original/7gr04tWDnsBHHmo18aYLWXZHAvC.jpg"
+        }
+    },
+    {
+        "pk": 1627343,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                532321
+            ],
+            "name": "Tatsuya Koyanagi",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 1624751,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                532321
+            ],
+            "name": "Masaharu Watanabe",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 1215,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                11024,
+                77931
+            ],
+            "name": "Raja Gosnell",
+            "profile_path": "https://image.tmdb.org/t/p/original/jbcOXhl4QGaYcvAK5WsbEARkkQZ.jpg"
+        }
+    },
+    {
+        "pk": 928490,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                287948
+            ],
+            "name": "Camille Delamarre",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 21678,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                340676
+            ],
+            "name": "Olivier Assayas",
+            "profile_path": "https://image.tmdb.org/t/p/original/bB5TzDaPHLbHxPdsYzQ1blNRcxS.jpg"
+        }
+    },
+    {
+        "pk": 129718,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                226857
+            ],
+            "name": "Shana Feste",
+            "profile_path": "https://image.tmdb.org/t/p/original/Ai9XWB3Nq5w0ueTgMfx8JkxptIp.jpg"
+        }
+    },
+    {
+        "pk": 129718,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                226857
+            ],
+            "name": "Shana Feste",
+            "profile_path": "https://image.tmdb.org/t/p/original/Ai9XWB3Nq5w0ueTgMfx8JkxptIp.jpg"
+        }
+    },
+    {
+        "pk": 71329,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                483906
+            ],
+            "name": "Jonas Åkerlund",
+            "profile_path": "https://image.tmdb.org/t/p/original/bGnXImWTXDPvvwD4kcS7NdlMGW8.jpg"
+        }
+    },
+    {
+        "pk": 26714,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                527261
+            ],
+            "name": "John R. Leonetti",
+            "profile_path": "https://image.tmdb.org/t/p/original/uksq1bamaA4MfpBPaP4Vv8BvLpu.jpg"
+        }
+    },
+    {
+        "pk": 17655,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                411728
+            ],
+            "name": "Farhad Safinia",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 1719601,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                429351
+            ],
+            "name": "Nicolai Fuglsig",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 8685,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                396806
+            ],
+            "name": "Andrew Niccol",
+            "profile_path": "https://image.tmdb.org/t/p/original/ffu94ltKqX6mAPSWdimz7MIdJMZ.jpg"
+        }
+    },
+    {
+        "pk": 1362815,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                531309
+            ],
+            "name": "David Yarovesky",
+            "profile_path": "https://image.tmdb.org/t/p/original/fNaQfVEnSrK6ff2bEaatRsEtMO2.jpg"
+        }
+    },
+    {
+        "pk": 3055,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                454227
+            ],
+            "name": "David Mackenzie",
+            "profile_path": "https://image.tmdb.org/t/p/original/oHZ2kkGICUnSbm73BQFK3Hau82f.jpg"
+        }
+    },
+    {
+        "pk": 97026,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                76617
+            ],
+            "name": "John Luessenhop",
+            "profile_path": "https://image.tmdb.org/t/p/original/HI2jnUyVBZu2xYOohzjM4nB8XQ.jpg"
+        }
+    },
+    {
+        "pk": 17329,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                440472
+            ],
+            "name": "Neil Burger",
+            "profile_path": "https://image.tmdb.org/t/p/original/eUDHt2OWYnCwC8FOVIgU2uTPK3x.jpg"
+        }
+    },
+    {
+        "pk": 34396,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                514439
+            ],
+            "name": "Roxann Dawson",
+            "profile_path": "https://image.tmdb.org/t/p/original/n4YNcGj3wCg9bKbDj1U3BRYoUXL.jpg"
+        }
+    },
+    {
+        "pk": 89112,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                378236
+            ],
+            "name": "Anthony Leondis",
+            "profile_path": "https://image.tmdb.org/t/p/original/ri6nyNxNmCVO6ZYiv29qKgzVYsA.jpg"
+        }
+    },
+    {
+        "pk": 7396,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                490132
+            ],
+            "name": "Peter Farrelly",
+            "profile_path": "https://image.tmdb.org/t/p/original/8vLjukhhj4dKQSbtZ8qFr2Ybf5T.jpg"
+        }
+    },
+    {
+        "pk": 52114,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                431530
+            ],
+            "name": "Jon Lucas",
+            "profile_path": "https://image.tmdb.org/t/p/original/7MT62A1wIX6u4mjSimVDOcbRQ5s.jpg"
+        }
+    },
+    {
+        "pk": 226089,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                431530
+            ],
+            "name": "Scott Moore",
+            "profile_path": "https://image.tmdb.org/t/p/original/txnoRflzzdTwjMaTgrVtUEnTRWp.jpg"
+        }
+    },
+    {
+        "pk": 55252,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                293660
+            ],
+            "name": "Tim Miller",
+            "profile_path": "https://image.tmdb.org/t/p/original/dCyBYwhO76j5wA96HPb6k5xk2Le.jpg"
+        }
+    },
+    {
+        "pk": 7312,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                11451
+            ],
+            "name": "Angela Robinson",
+            "profile_path": "https://image.tmdb.org/t/p/original/fA8mw3bRWALK7ZGi0YUpDxNWVVf.jpg"
+        }
+    },
+    {
+        "pk": 15217,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                209112,
+                141052
+            ],
+            "name": "Zack Snyder",
+            "profile_path": "https://image.tmdb.org/t/p/original/iD0GDqkvJXDXiNEZej198hjt3Tt.jpg"
+        }
+    },
+    {
+        "pk": 933262,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                86467
+            ],
+            "name": "Nick Ormerod",
+            "profile_path": "https://image.tmdb.org/t/p/original/6CP0khCpTZVyC0j9AIA6rqFdV1u.jpg"
+        }
+    },
+    {
+        "pk": 933263,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                86467
+            ],
+            "name": "Declan Donnellan",
+            "profile_path": "https://image.tmdb.org/t/p/original/A7G4CLPglPaCmxLq6zGXbCg0qls.jpg"
+        }
+    },
+    {
+        "pk": 1071,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                270010
+            ],
+            "name": "Tom Tykwer",
+            "profile_path": "https://image.tmdb.org/t/p/original/9J53KiI0OWIjSxwkUyxVLGrlnHy.jpg"
+        }
+    },
+    {
+        "pk": 10943,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                131631,
+                131634
+            ],
+            "name": "Francis Lawrence",
+            "profile_path": "https://image.tmdb.org/t/p/original/pyGWo5mAwZ2Koe6leB2RjKd7vmc.jpg"
+        }
+    },
+    {
+        "pk": 111736,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                151960
+            ],
+            "name": "Klay Hall",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 84335,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                13186
+            ],
+            "name": "Joe Lynch",
+            "profile_path": "https://image.tmdb.org/t/p/original/maeIOyMqToTT0XuWxO0Fy40lNzR.jpg"
+        }
+    },
+    {
+        "pk": 7467,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                1949,
+                4922,
+                210577,
+                550
+            ],
+            "name": "David Fincher",
+            "profile_path": "https://image.tmdb.org/t/p/original/dcBHejOsKvzVZVozWJAPzYthb8X.jpg"
+        }
+    },
+    {
+        "pk": 7467,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                1949,
+                4922,
+                210577,
+                550
+            ],
+            "name": "David Fincher",
+            "profile_path": "https://image.tmdb.org/t/p/original/dcBHejOsKvzVZVozWJAPzYthb8X.jpg"
+        }
+    },
+    {
+        "pk": 6884,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                297762
+            ],
+            "name": "Patty Jenkins",
+            "profile_path": "https://image.tmdb.org/t/p/original/za4JYxjctECHLJJel3lEFPsbeht.jpg"
+        }
+    },
+    {
+        "pk": 15775,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                15789,
+                10481
+            ],
+            "name": "Kevin Lima",
+            "profile_path": "https://image.tmdb.org/t/p/original/725jzhxXkAPIqo9P5nEnlBW3Q1y.jpg"
+        }
+    },
+    {
+        "pk": 56147,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                15789
+            ],
+            "name": "Paul Brizzi",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 18865,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                1724
+            ],
+            "name": "Louis Leterrier",
+            "profile_path": "https://image.tmdb.org/t/p/original/54rsjgcmdZj2wymmKy3FPRgkrie.jpg"
+        }
+    },
+    {
+        "pk": 132876,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                254128
+            ],
+            "name": "Brad Peyton",
+            "profile_path": "https://image.tmdb.org/t/p/original/7F7dM4A6QbA67xOxTJyv3aqinrA.jpg"
+        }
+    },
+    {
+        "pk": 1551545,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                480530
+            ],
+            "name": "Steven Caple Jr.",
+            "profile_path": "https://image.tmdb.org/t/p/original/aU8p958QyhfV2jurc3L5pn7sN6L.jpg"
+        }
+    },
+    {
+        "pk": 1551545,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                480530
+            ],
+            "name": "Steven Caple Jr.",
+            "profile_path": "https://image.tmdb.org/t/p/original/aU8p958QyhfV2jurc3L5pn7sN6L.jpg"
+        }
+    },
+    {
+        "pk": 2523,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                2320
+            ],
+            "name": "Stuart Baird",
+            "profile_path": "https://image.tmdb.org/t/p/original/k7nLNZ0MYsPrKq5T3ZV7m9zwEGY.jpg"
+        }
+    },
+    {
+        "pk": 2636,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                574
+            ],
+            "name": "Alfred Hitchcock",
+            "profile_path": "https://image.tmdb.org/t/p/original/rKYyX58azJv1SZNXQWOJyNyvB9F.jpg"
+        }
+    },
+    {
+        "pk": 53267,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                68817
+            ],
+            "name": "Craig Brewer",
+            "profile_path": "https://image.tmdb.org/t/p/original/1F5Sjw9oAkKQOLaD2Bs3vrsIlMg.jpg"
+        }
+    },
+    {
+        "pk": 53267,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                68817
+            ],
+            "name": "Craig Brewer",
+            "profile_path": "https://image.tmdb.org/t/p/original/1F5Sjw9oAkKQOLaD2Bs3vrsIlMg.jpg"
+        }
+    },
+    {
+        "pk": 100734,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                403119
+            ],
+            "name": "Johannes Roberts",
+            "profile_path": "https://image.tmdb.org/t/p/original/8hHny6atmFXcuNl2m1AP3fIOayz.jpg"
+        }
+    },
+    {
+        "pk": 51329,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                332562
+            ],
+            "name": "Bradley Cooper",
+            "profile_path": "https://image.tmdb.org/t/p/original/w2iNEYKNuWzGfGzISeh4P6IiR4U.jpg"
+        }
+    },
+    {
+        "pk": 7087,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                260513
+            ],
+            "name": "Brad Bird",
+            "profile_path": "https://image.tmdb.org/t/p/original/2XwJyYs6XNLaQuC1O2gbEHT3jxx.jpg"
+        }
+    },
+    {
+        "pk": 56370,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                401246,
+                265189
+            ],
+            "name": "Ruben Östlund",
+            "profile_path": "https://image.tmdb.org/t/p/original/kD2GQaROZYBRic7A99imCN67IaD.jpg"
+        }
+    },
+    {
+        "pk": 1392433,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                393519
+            ],
+            "name": "Julia Ducournau",
+            "profile_path": "https://image.tmdb.org/t/p/original/2Sx56zsMGei5p7RjETmcqpgblnO.jpg"
+        }
+    },
+    {
+        "pk": 19840,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                241257
+            ],
+            "name": "Alejandro Amenábar",
+            "profile_path": "https://image.tmdb.org/t/p/original/oNOZAy7tzekG0fL6fHniHvwHPAg.jpg"
+        }
+    },
+    {
+        "pk": 11401,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                12289,
+                2019,
+                11782
+            ],
+            "name": "John Woo",
+            "profile_path": "https://image.tmdb.org/t/p/original/d1ovGZj05qWU1MjVKAePVj7ZMRh.jpg"
+        }
+    },
+    {
+        "pk": 67367,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                181808
+            ],
+            "name": "Rian Johnson",
+            "profile_path": "https://image.tmdb.org/t/p/original/j7ACBDkCgMqf6sSz2XeCmfqGNd3.jpg"
+        }
+    },
+    {
+        "pk": 1003245,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                399402
+            ],
+            "name": "Donovan Marsh",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 12989,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                12123
+            ],
+            "name": "Andrew Davis",
+            "profile_path": "https://image.tmdb.org/t/p/original/vE3ls4wUsHQZAtu4gIzTIeQEmMG.jpg"
+        }
+    },
+    {
+        "pk": 15488,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                1116,
+                374473
+            ],
+            "name": "Ken Loach",
+            "profile_path": "https://image.tmdb.org/t/p/original/vGtkrPgNeK3xkbbKTQ4vWD1VsEm.jpg"
+        }
+    },
+    {
+        "pk": 70212,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                308504
+            ],
+            "name": "Kazuaki Kiriya",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 2710,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                19995,
+                280,
+                597
+            ],
+            "name": "James Cameron",
+            "profile_path": "https://image.tmdb.org/t/p/original/4TjSh3Er5LIOvFcB5inaRDPrBKu.jpg"
+        }
+    },
+    {
+        "pk": 9340,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                603,
+                9303
+            ],
+            "name": "Lana Wachowski",
+            "profile_path": "https://image.tmdb.org/t/p/original/fxZ7SpJCZ9DgJERWEpGmn5a4mdp.jpg"
+        }
+    },
+    {
+        "pk": 9339,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                603,
+                9303
+            ],
+            "name": "Lilly Wachowski",
+            "profile_path": "https://image.tmdb.org/t/p/original/9sxE10LUA7TGlS1pHw2RM6mckHp.jpg"
+        }
+    },
+    {
+        "pk": 88039,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                207768
+            ],
+            "name": "Steven R. Monroe",
+            "profile_path": "https://image.tmdb.org/t/p/original/6CeSKA4OIbdPpkuX6SKYCH3RAnk.jpg"
+        }
+    },
+    {
+        "pk": 74730,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                145247
+            ],
+            "name": "Felix Herngren",
+            "profile_path": "https://image.tmdb.org/t/p/original/hKZcphTUNIRhpYiWHgOSxhNnvuw.jpg"
+        }
+    },
+    {
+        "pk": 12453,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                844
+            ],
+            "name": "Wong Kar-wai",
+            "profile_path": "https://image.tmdb.org/t/p/original/zLngBAag9DSKtSAOWcfsFtEU3i5.jpg"
+        }
+    },
+    {
+        "pk": 12453,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                844
+            ],
+            "name": "Wong Kar-wai",
+            "profile_path": "https://image.tmdb.org/t/p/original/zLngBAag9DSKtSAOWcfsFtEU3i5.jpg"
+        }
+    },
+    {
+        "pk": 3702,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                320007
+            ],
+            "name": "Sebastian Schipper",
+            "profile_path": "https://image.tmdb.org/t/p/original/fzRs9csoyl9uE5aybQ9bqe1SGuc.jpg"
+        }
+    },
+    {
+        "pk": 35453,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                266396
+            ],
+            "name": "Pierre Morel",
+            "profile_path": "https://image.tmdb.org/t/p/original/yyhcEUYW4znC6JbNKZv2OJp1Cy0.jpg"
+        }
+    },
+    {
+        "pk": 35453,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                266396
+            ],
+            "name": "Pierre Morel",
+            "profile_path": "https://image.tmdb.org/t/p/original/yyhcEUYW4znC6JbNKZv2OJp1Cy0.jpg"
+        }
+    },
+    {
+        "pk": 35453,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                266396
+            ],
+            "name": "Pierre Morel",
+            "profile_path": "https://image.tmdb.org/t/p/original/yyhcEUYW4znC6JbNKZv2OJp1Cy0.jpg"
+        }
+    },
+    {
+        "pk": 21807,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                290751
+            ],
+            "name": "Billy Ray",
+            "profile_path": "https://image.tmdb.org/t/p/original/c607NMZCDpKlsJVuGUaD9wvglUk.jpg"
+        }
+    },
+    {
+        "pk": 1496011,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                353326
+            ],
+            "name": "Matt Brown",
+            "profile_path": "https://image.tmdb.org/t/p/original/hNUhL6UA7eqUfRdTWzPeLJYaVc2.jpg"
+        }
+    },
+    {
+        "pk": 229931,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                152780,
+                375315
+            ],
+            "name": "Asghar Farhadi",
+            "profile_path": "https://image.tmdb.org/t/p/original/ifnfNhvI40VbCfNsxDW9ezn6scE.jpg"
+        }
+    },
+    {
+        "pk": 59998,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                341006,
+                390062
+            ],
+            "name": "Greg McLean",
+            "profile_path": "https://image.tmdb.org/t/p/original/2DPAARHLV29cCdQeUjkQ06lZh9b.jpg"
+        }
+    },
+    {
+        "pk": 58656,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                9703
+            ],
+            "name": "Doug Lefler",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 23964,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                316152
+            ],
+            "name": "Gary Ross",
+            "profile_path": "https://image.tmdb.org/t/p/original/dMoUDOJHsGrQcxKpFgbuMWRwiyI.jpg"
+        }
+    },
+    {
+        "pk": 15115,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                97614
+            ],
+            "name": "Stefan Ruzowitzky",
+            "profile_path": "https://image.tmdb.org/t/p/original/qlN1bMiTQxcOzMMgNQutA6GI47Q.jpg"
+        }
+    },
+    {
+        "pk": 4027,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                278
+            ],
+            "name": "Frank Darabont",
+            "profile_path": "https://image.tmdb.org/t/p/original/9KVvZtDyy8DXacw2TTsjC9VLxQi.jpg"
+        }
+    },
+    {
+        "pk": 32250,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                351339
+            ],
+            "name": "Sean Ellis",
+            "profile_path": "https://image.tmdb.org/t/p/original/aODTopWlu757mM7n163rTBmXRHX.jpg"
+        }
+    },
+    {
+        "pk": 1278722,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                353616,
+                243683
+            ],
+            "name": "Trish Sie",
+            "profile_path": "https://image.tmdb.org/t/p/original/wB8cnaVXGikYjoWhcyvcNf8wWi9.jpg"
+        }
+    },
+    {
+        "pk": 74924,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                77948
+            ],
+            "name": "Mabrouk El Mechri",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 18525,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                1667
+            ],
+            "name": "Luc Jacquet",
+            "profile_path": "https://image.tmdb.org/t/p/original/b4hz0BmK9NCD2fC6g8Z8hTigqoI.jpg"
+        }
+    },
+    {
+        "pk": 62854,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                341012
+            ],
+            "name": "Akiva Schaffer",
+            "profile_path": "https://image.tmdb.org/t/p/original/AndF7ndhBbCgHTicoHjCKDxmoi5.jpg"
+        }
+    },
+    {
+        "pk": 62863,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                341012
+            ],
+            "name": "Jorma Taccone",
+            "profile_path": "https://image.tmdb.org/t/p/original/8NqZvjdsMIT3HgfdltoMBqxsEcB.jpg"
+        }
+    },
+    {
+        "pk": 78173,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                15370
+            ],
+            "name": "Hiroyuki Morita",
+            "profile_path": "https://image.tmdb.org/t/p/original/5tqP0LxEHIv5z7znlhnnZ4JD1CM.jpg"
+        }
+    },
+    {
+        "pk": 15287,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                289222
+            ],
+            "name": "Niki Caro",
+            "profile_path": "https://image.tmdb.org/t/p/original/ooJcmnhX9qJ0E7bCdSQCxr7JViH.jpg"
+        }
+    },
+    {
+        "pk": 956,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                420817
+            ],
+            "name": "Guy Ritchie",
+            "profile_path": "https://image.tmdb.org/t/p/original/uLpiixgcko2W5GLsqBEvSfluyEs.jpg"
+        }
+    },
+    {
+        "pk": 1461,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                395458
+            ],
+            "name": "George Clooney",
+            "profile_path": "https://image.tmdb.org/t/p/original/z4SBfpKDThuQY0FsvDbajcooBdA.jpg"
+        }
+    },
+    {
+        "pk": 46297,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                54318,
+                11128
+            ],
+            "name": "Jay Russell",
+            "profile_path": "https://image.tmdb.org/t/p/original/baaNlNwUYSGpznRfWnCCUzGhtKE.jpg"
+        }
+    },
+    {
+        "pk": 46297,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                54318,
+                11128
+            ],
+            "name": "Jay Russell",
+            "profile_path": "https://image.tmdb.org/t/p/original/baaNlNwUYSGpznRfWnCCUzGhtKE.jpg"
+        }
+    },
+    {
+        "pk": 5045,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                10925
+            ],
+            "name": "Dan O'Bannon",
+            "profile_path": "https://image.tmdb.org/t/p/original/slLZWXZ1lmdF763166ATRRI200n.jpg"
+        }
+    },
+    {
+        "pk": 7775,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                179826
+            ],
+            "name": "Stephen Sommers",
+            "profile_path": "https://image.tmdb.org/t/p/original/50bI0PixdzrD5Mdygl4wrpxHCiH.jpg"
+        }
+    },
+    {
+        "pk": 7775,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                179826
+            ],
+            "name": "Stephen Sommers",
+            "profile_path": "https://image.tmdb.org/t/p/original/50bI0PixdzrD5Mdygl4wrpxHCiH.jpg"
+        }
+    },
+    {
+        "pk": 138,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                680
+            ],
+            "name": "Quentin Tarantino",
+            "profile_path": "https://image.tmdb.org/t/p/original/rivHScdhT043n5jCSci7ToqLsoE.jpg"
+        }
+    },
+    {
+        "pk": 138,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                680
+            ],
+            "name": "Quentin Tarantino",
+            "profile_path": "https://image.tmdb.org/t/p/original/rivHScdhT043n5jCSci7ToqLsoE.jpg"
+        }
+    },
+    {
+        "pk": 66212,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                302349
+            ],
+            "name": "Timo Vuorensola",
+            "profile_path": "https://image.tmdb.org/t/p/original/vOvgjfKURnz7HledfDyEY3JfQ9Z.jpg"
+        }
+    },
+    {
+        "pk": 66212,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                302349
+            ],
+            "name": "Timo Vuorensola",
+            "profile_path": "https://image.tmdb.org/t/p/original/vOvgjfKURnz7HledfDyEY3JfQ9Z.jpg"
+        }
+    },
+    {
+        "pk": 578,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                11976,
+                286217
+            ],
+            "name": "Ridley Scott",
+            "profile_path": "https://image.tmdb.org/t/p/original/oTAL0z0vsjipCruxXUsDUIieuhk.jpg"
+        }
+    },
+    {
+        "pk": 578,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                11976,
+                286217
+            ],
+            "name": "Ridley Scott",
+            "profile_path": "https://image.tmdb.org/t/p/original/oTAL0z0vsjipCruxXUsDUIieuhk.jpg"
+        }
+    },
+    {
+        "pk": 18878,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                10048
+            ],
+            "name": "Rob Cohen",
+            "profile_path": "https://image.tmdb.org/t/p/original/qMtAaURL6aE3GgALVQlxKGGL5AC.jpg"
+        }
+    },
+    {
+        "pk": 16959,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                369192
+            ],
+            "name": "Jonathan Dayton",
+            "profile_path": "https://image.tmdb.org/t/p/original/7sKsTeeiVjpAIujAw86NStfZvFM.jpg"
+        }
+    },
+    {
+        "pk": 16960,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                369192
+            ],
+            "name": "Valerie Faris",
+            "profile_path": "https://image.tmdb.org/t/p/original/bHxIbrHwSI5RWdahw21euXm2hjv.jpg"
+        }
+    },
+    {
+        "pk": 16960,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                369192
+            ],
+            "name": "Valerie Faris",
+            "profile_path": "https://image.tmdb.org/t/p/original/bHxIbrHwSI5RWdahw21euXm2hjv.jpg"
+        }
+    },
+    {
+        "pk": 48583,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                111190
+            ],
+            "name": "Anne Fontaine",
+            "profile_path": "https://image.tmdb.org/t/p/original/wtl2OPo3IydskWY3cMXInBba1w.jpg"
+        }
+    },
+    {
+        "pk": 5501,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                12103
+            ],
+            "name": "Gary Fleder",
+            "profile_path": "https://image.tmdb.org/t/p/original/fKPxO8iWMuWYQ8sXeH1BPfQzqxm.jpg"
+        }
+    },
+    {
+        "pk": 74752,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                88273
+            ],
+            "name": "Nikolaj Arcel",
+            "profile_path": "https://image.tmdb.org/t/p/original/dHYeFCNDP5Hg7IihESiLXgqNElT.jpg"
+        }
+    },
+    {
+        "pk": 5970,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                5336
+            ],
+            "name": "Pier Paolo Pasolini",
+            "profile_path": "https://image.tmdb.org/t/p/original/zHqXNL85yvOokI7y12UGS1Lkm6D.jpg"
+        }
+    },
+    {
+        "pk": 556172,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                399361
+            ],
+            "name": "J. C. Chandor",
+            "profile_path": "https://image.tmdb.org/t/p/original/6oaCrcLpqAvuWci6kStnuuAc34I.jpg"
+        }
+    },
+    {
+        "pk": 69003,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                11319
+            ],
+            "name": "John Lounsbery",
+            "profile_path": "https://image.tmdb.org/t/p/original/5iwFX8llmSfEudddEXO8BGczdTs.jpg"
+        }
+    },
+    {
+        "pk": 57314,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                11319
+            ],
+            "name": "Wolfgang Reitherman",
+            "profile_path": "https://image.tmdb.org/t/p/original/p9ywBLS3Pvv3BcocjLsPwnll6mc.jpg"
+        }
+    },
+    {
+        "pk": 67607,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                11319
+            ],
+            "name": "Art Stevens",
+            "profile_path": "https://image.tmdb.org/t/p/original/5SqkXwKbSFSUW9Ho8dxxAYIp2s4.jpg"
+        }
+    },
+    {
+        "pk": 137427,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                335984,
+                329865
+            ],
+            "name": "Denis Villeneuve",
+            "profile_path": "https://image.tmdb.org/t/p/original/433lXlkdMGXzrpwnKM4Ul1sln15.jpg"
+        }
+    },
+    {
+        "pk": 63973,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                314405
+            ],
+            "name": "Matteo Garrone",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 75035,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                260346
+            ],
+            "name": "Olivier Megaton",
+            "profile_path": "https://image.tmdb.org/t/p/original/kihfuDNnnl41DyYz3uRiMG9pYgU.jpg"
+        }
+    },
+    {
+        "pk": 64152,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                10199
+            ],
+            "name": "Robert Stevenhagen",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 58897,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                10199
+            ],
+            "name": "Sam Fell",
+            "profile_path": "https://image.tmdb.org/t/p/original/29NFQubb9A5OrA9OyXhnX4eOfkv.jpg"
+        }
+    },
+    {
+        "pk": 143593,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                338189
+            ],
+            "name": "Xavier Dolan",
+            "profile_path": "https://image.tmdb.org/t/p/original/ohlR0okNYx0lg4NFqQJoys8c4Zp.jpg"
+        }
+    },
+    {
+        "pk": 144519,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                182560
+            ],
+            "name": "Gilles Paquet-Brenner",
+            "profile_path": "https://image.tmdb.org/t/p/original/IEF0dTTYw4vTatbQYqDfiZKhrp.jpg"
+        }
+    },
+    {
+        "pk": 1184881,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                574241
+            ],
+            "name": "Zara Hayes",
+            "profile_path": "https://image.tmdb.org/t/p/original/ijJrtEXT32EiirLZFtZ8I091AXb.jpg"
+        }
+    },
+    {
+        "pk": 1018106,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                438674,
+                398175
+            ],
+            "name": "S. Craig Zahler",
+            "profile_path": "https://image.tmdb.org/t/p/original/vomw5TlCtMtKFSsgOtwkit464nd.jpg"
+        }
+    },
+    {
+        "pk": 1884,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                467660,
+                8881
+            ],
+            "name": "Steven Soderbergh",
+            "profile_path": "https://image.tmdb.org/t/p/original/579zHkhyHD1gj3B6a2VveOXrJAD.jpg"
+        }
+    },
+    {
+        "pk": 27846,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                2749
+            ],
+            "name": "John Herzfeld",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 105643,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                123025
+            ],
+            "name": "Jay Oliva",
+            "profile_path": "https://image.tmdb.org/t/p/original/y7EbnuoKFMvU7uZ4aD50jThyNoF.jpg"
+        }
+    },
+    {
+        "pk": 83730,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                38543
+            ],
+            "name": "Jonathan English",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 20400,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                11045
+            ],
+            "name": "Tim Story",
+            "profile_path": "https://image.tmdb.org/t/p/original/30HZn70vyclGRRn5AU3szpKyfgC.jpg"
+        }
+    },
+    {
+        "pk": 30365,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                3093
+            ],
+            "name": "Michael Caton-Jones",
+            "profile_path": "https://image.tmdb.org/t/p/original/oKzuAA9S6VAb0qkmD9v8Z30jGSf.jpg"
+        }
+    },
+    {
+        "pk": 3224,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                315664
+            ],
+            "name": "Stephen Frears",
+            "profile_path": "https://image.tmdb.org/t/p/original/8IewTBLTPujw1t1MwpXba8cCXOU.jpg"
+        }
+    },
+    {
+        "pk": 3224,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                315664
+            ],
+            "name": "Stephen Frears",
+            "profile_path": "https://image.tmdb.org/t/p/original/8IewTBLTPujw1t1MwpXba8cCXOU.jpg"
+        }
+    },
+    {
+        "pk": 1480620,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                397422
+            ],
+            "name": "Lucia Aniello",
+            "profile_path": "https://image.tmdb.org/t/p/original/60s5psYbHSs6NvgOHzMIQTlUJf0.jpg"
+        }
+    },
+    {
+        "pk": 488,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                424,
+                74,
+                333339
+            ],
+            "name": "Steven Spielberg",
+            "profile_path": "https://image.tmdb.org/t/p/original/pOK15UNaw75Bzj7BQO1ulehbPPm.jpg"
+        }
+    },
+    {
+        "pk": 61069,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                218778,
+                9962
+            ],
+            "name": "Miguel Arteta",
+            "profile_path": "https://image.tmdb.org/t/p/original/bAuqxNYzxFxU4lX8wExPzBZ8vJ6.jpg"
+        }
+    },
+    {
+        "pk": 15810,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                9994
+            ],
+            "name": "Ron Clements",
+            "profile_path": "https://image.tmdb.org/t/p/original/iCq89uPdVjtGkO7UbTn5UPqHIPx.jpg"
+        }
+    },
+    {
+        "pk": 61677,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                9994
+            ],
+            "name": "Burny Mattinson",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 61678,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                9994
+            ],
+            "name": "David Michener",
+            "profile_path": "https://image.tmdb.org/t/p/original/1Sgz4iH3f7KTPAgZw8fubJX8wJA.jpg"
+        }
+    },
+    {
+        "pk": 15811,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                9994
+            ],
+            "name": "John Musker",
+            "profile_path": "https://image.tmdb.org/t/p/original/do3vzNWSKhJLARV8VfNS9q9rRXV.jpg"
+        }
+    },
+    {
+        "pk": 26875,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                10320
+            ],
+            "name": "Hideo Nakata",
+            "profile_path": "https://image.tmdb.org/t/p/original/fQ3XJXTNpxzt6gMpMM0pJOyuibA.jpg"
+        }
+    },
+    {
+        "pk": 40476,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                374475
+            ],
+            "name": "Maren Ade",
+            "profile_path": "https://image.tmdb.org/t/p/original/nOholiGROBPeCFE1CGagTvtsFpf.jpg"
+        }
+    },
+    {
+        "pk": 12300,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                830
+            ],
+            "name": "Fred M. Wilcox",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 928915,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                243940
+            ],
+            "name": "David Gelb",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 21768,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                9662
+            ],
+            "name": "Sylvain Chomet",
+            "profile_path": "https://image.tmdb.org/t/p/original/tDVVYaJ8LCHbEkALwoDcBvBa1ot.jpg"
+        }
+    },
+    {
+        "pk": 8392,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                41211
+            ],
+            "name": "Pascal Chaumeil",
+            "profile_path": "https://image.tmdb.org/t/p/original/6imfuNPZR7hKZbbmMuUxPI0LHRj.jpg"
+        }
+    },
+    {
+        "pk": 1721377,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                515248
+            ],
+            "name": "Jennifer Kaytin Robinson",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 1224425,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                177494
+            ],
+            "name": "Rob Thomas",
+            "profile_path": "https://image.tmdb.org/t/p/original/ksd5zcrzvyQ4RemsanCxQ9b6GvF.jpg"
+        }
+    },
+    {
+        "pk": 17016,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                102780
+            ],
+            "name": "Neil Jordan",
+            "profile_path": "https://image.tmdb.org/t/p/original/uZ7CvCLTKb9qxjU4VsTNeyMRucd.jpg"
+        }
+    },
+    {
+        "pk": 120245,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                155084
+            ],
+            "name": "Daniel Stamm",
+            "profile_path": "https://image.tmdb.org/t/p/original/piJtIhtENjbkUygTeihBYqQImup.jpg"
+        }
+    },
+    {
+        "pk": 9033,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                353081
+            ],
+            "name": "Christopher McQuarrie",
+            "profile_path": "https://image.tmdb.org/t/p/original/b2zCcMMd0cawVhYjmSwICu2eTRu.jpg"
+        }
+    },
+    {
+        "pk": 4453,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                250734
+            ],
+            "name": "Thomas Vinterberg",
+            "profile_path": "https://image.tmdb.org/t/p/original/1lChKBPVLqbn7Kl8lHghybBVzgw.jpg"
+        }
+    },
+    {
+        "pk": 16378,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                471859
+            ],
+            "name": "Mary Harron",
+            "profile_path": "https://image.tmdb.org/t/p/original/qlWi0kufzB7lCq6Jz5zuNE3Kk1V.jpg"
+        }
+    },
+    {
+        "pk": 208527,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                252178
+            ],
+            "name": "Yann Demange",
+            "profile_path": "https://image.tmdb.org/t/p/original/5RK0Y2IjNZupP3sq6ibZ1b9mCHh.jpg"
+        }
+    },
+    {
+        "pk": 53333,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                16608
+            ],
+            "name": "John Hillcoat",
+            "profile_path": "https://image.tmdb.org/t/p/original/dysF1m1OGCl22EDSRG87yiw2QPw.jpg"
+        }
+    },
+    {
+        "pk": 97942,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                127560
+            ],
+            "name": "Jonathan Teplitzky",
+            "profile_path": "https://image.tmdb.org/t/p/original/mkvXjucr6iRAB4w9zVt5veoEQln.jpg"
+        }
+    },
+    {
+        "pk": 592493,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                428449
+            ],
+            "name": "David Lowery",
+            "profile_path": "https://image.tmdb.org/t/p/original/soYt2uITKFDaWPBhe3fft6jNyav.jpg"
+        }
+    },
+    {
+        "pk": 1777,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                330483
+            ],
+            "name": "Ross Katz",
+            "profile_path": "https://image.tmdb.org/t/p/original/1JAPs21rMe9O6ggAoUjAMQjbNeK.jpg"
+        }
+    },
+    {
+        "pk": 16938,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                10131,
+                10477
+            ],
+            "name": "Renny Harlin",
+            "profile_path": "https://image.tmdb.org/t/p/original/lOCRZzC1UZfkObWpQtKxga5ZV8F.jpg"
+        }
+    },
+    {
+        "pk": 3556,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                10497
+            ],
+            "name": "Roman Polanski",
+            "profile_path": "https://image.tmdb.org/t/p/original/5yMO7d7NsODZtCwF22Xnlp3oVnE.jpg"
+        }
+    },
+    {
+        "pk": 3556,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                10497
+            ],
+            "name": "Roman Polanski",
+            "profile_path": "https://image.tmdb.org/t/p/original/5yMO7d7NsODZtCwF22Xnlp3oVnE.jpg"
+        }
+    },
+    {
+        "pk": 3556,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                10497
+            ],
+            "name": "Roman Polanski",
+            "profile_path": "https://image.tmdb.org/t/p/original/5yMO7d7NsODZtCwF22Xnlp3oVnE.jpg"
+        }
+    },
+    {
+        "pk": 3556,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                10497
+            ],
+            "name": "Roman Polanski",
+            "profile_path": "https://image.tmdb.org/t/p/original/5yMO7d7NsODZtCwF22Xnlp3oVnE.jpg"
+        }
+    },
+    {
+        "pk": 4014,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                9425
+            ],
+            "name": "Paul W.S. Anderson",
+            "profile_path": "https://image.tmdb.org/t/p/original/s6GaqCkUiRXxWXg3LhdCI9i3BW0.jpg"
+        }
+    },
+    {
+        "pk": 4014,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                9425
+            ],
+            "name": "Paul W.S. Anderson",
+            "profile_path": "https://image.tmdb.org/t/p/original/s6GaqCkUiRXxWXg3LhdCI9i3BW0.jpg"
+        }
+    },
+    {
+        "pk": 932533,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                400535
+            ],
+            "name": "Stefano Sollima",
+            "profile_path": "https://image.tmdb.org/t/p/original/vBv41EnEGVSD6EgSj2mD9dPSdJW.jpg"
+        }
+    },
+    {
+        "pk": 49870,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                498248
+            ],
+            "name": "Gilles de Maistre",
+            "profile_path": "https://image.tmdb.org/t/p/original/47Ui0AtxxYcS0WgldY5MrX3eOgp.jpg"
+        }
+    },
+    {
+        "pk": 55710,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                429197,
+                318846
+            ],
+            "name": "Adam McKay",
+            "profile_path": "https://image.tmdb.org/t/p/original/vOyZXNJq7Oo01LPtSD5AZHjctgH.jpg"
+        }
+    },
+    {
+        "pk": 55710,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                429197,
+                318846
+            ],
+            "name": "Adam McKay",
+            "profile_path": "https://image.tmdb.org/t/p/original/vOyZXNJq7Oo01LPtSD5AZHjctgH.jpg"
+        }
+    },
+    {
+        "pk": 76595,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                269149
+            ],
+            "name": "Byron Howard",
+            "profile_path": "https://image.tmdb.org/t/p/original/ePJXkxrD44nM0VB7Xx9Q4ityzfT.jpg"
+        }
+    },
+    {
+        "pk": 76595,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                269149
+            ],
+            "name": "Byron Howard",
+            "profile_path": "https://image.tmdb.org/t/p/original/ePJXkxrD44nM0VB7Xx9Q4ityzfT.jpg"
+        }
+    },
+    {
+        "pk": 58498,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                22787
+            ],
+            "name": "Dominic Sena",
+            "profile_path": "https://image.tmdb.org/t/p/original/ofWADCsDpNxbTFfoK1CpU8KnBGF.jpg"
+        }
+    },
+    {
+        "pk": 87742,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                1930
+            ],
+            "name": "Marc Webb",
+            "profile_path": "https://image.tmdb.org/t/p/original/7uFlVK5BDTjk6IK9iBCmfrdaAs6.jpg"
+        }
+    },
+    {
+        "pk": 15045,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                9021
+            ],
+            "name": "Michael Lembeck",
+            "profile_path": "https://image.tmdb.org/t/p/original/nSksRzDoUToxdS2MqIeV7LGAiVk.jpg"
+        }
+    },
+    {
+        "pk": 88675,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                527641
+            ],
+            "name": "Justin Baldoni",
+            "profile_path": "https://image.tmdb.org/t/p/original/2sc6iUWljADnqtjsaKU3s6f0DGW.jpg"
+        }
+    },
+    {
+        "pk": 15344,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                140607
+            ],
+            "name": "J.J. Abrams",
+            "profile_path": "https://image.tmdb.org/t/p/original/xljsYopubv9egYzclBPNf9EAYxB.jpg"
+        }
+    },
+    {
+        "pk": 20028,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                8342
+            ],
+            "name": "Danis Tanović",
+            "profile_path": "https://image.tmdb.org/t/p/original/vjVlIeuNdvpzrrI7I4CYp8fhPdz.jpg"
+        }
+    },
+    {
+        "pk": 136495,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                244786
+            ],
+            "name": "Damien Chazelle",
+            "profile_path": "https://image.tmdb.org/t/p/original/x5bpTU8b2mwgPpPDGJGWsJ1Qt3t.jpg"
+        }
+    },
+    {
+        "pk": 3227,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                243938
+            ],
+            "name": "Steve Pink",
+            "profile_path": "https://image.tmdb.org/t/p/original/myHOgo8mQSCiCAZNGMRdHVr03jr.jpg"
+        }
+    },
+    {
+        "pk": 36425,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                419479
+            ],
+            "name": "McG",
+            "profile_path": "https://image.tmdb.org/t/p/original/hT0I4rLSOhIQoEYuYAP4tG16AjH.jpg"
+        }
+    },
+    {
+        "pk": 20019,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                82390
+            ],
+            "name": "Lee Daniels",
+            "profile_path": "https://image.tmdb.org/t/p/original/at0bnM4UNbyR5fTM8hi4UhBSRZn.jpg"
+        }
+    },
+    {
+        "pk": 1179066,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                198663
+            ],
+            "name": "Wes Ball",
+            "profile_path": "https://image.tmdb.org/t/p/original/zVPXrhuAxYAWlwDEWCaqeUPycFx.jpg"
+        }
+    },
+    {
+        "pk": 69579,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                11470
+            ],
+            "name": "James Isaac",
+            "profile_path": "https://image.tmdb.org/t/p/original/j1j2q5iVzPptPNr1p9NluULP89L.jpg"
+        }
+    },
+    {
+        "pk": 69579,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                11470
+            ],
+            "name": "James Isaac",
+            "profile_path": "https://image.tmdb.org/t/p/original/j1j2q5iVzPptPNr1p9NluULP89L.jpg"
+        }
+    },
+    {
+        "pk": 3388,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                11050
+            ],
+            "name": "James L. Brooks",
+            "profile_path": "https://image.tmdb.org/t/p/original/9Hx9JbnQBChJhlfJTvmnYF8o8DK.jpg"
+        }
+    },
+    {
+        "pk": 15774,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                109445
+            ],
+            "name": "Chris Buck",
+            "profile_path": "https://image.tmdb.org/t/p/original/aFzDfJIIOC0tkGgqpwsZoDHzqu0.jpg"
+        }
+    },
+    {
+        "pk": 1120694,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                109445
+            ],
+            "name": "Jennifer Lee",
+            "profile_path": "https://image.tmdb.org/t/p/original/9BkQnsppXFWcNSRGo4GJ6QNq313.jpg"
+        }
+    },
+    {
+        "pk": 14773,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                11549
+            ],
+            "name": "Don Siegel",
+            "profile_path": "https://image.tmdb.org/t/p/original/vylrJ53CsYbxECA8c2CDEqkYKge.jpg"
+        }
+    },
+    {
+        "pk": 18184,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                38541
+            ],
+            "name": "Xavier Gens",
+            "profile_path": "https://image.tmdb.org/t/p/original/nvGKZUazQO0TUR1CW0IUJiIJAT3.jpg"
+        }
+    },
+    {
+        "pk": 18184,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                38541
+            ],
+            "name": "Xavier Gens",
+            "profile_path": "https://image.tmdb.org/t/p/original/nvGKZUazQO0TUR1CW0IUJiIJAT3.jpg"
+        }
+    },
+    {
+        "pk": 16837,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                77663
+            ],
+            "name": "Mark Steven Johnson",
+            "profile_path": "https://image.tmdb.org/t/p/original/6trChNn3o2bi4i2ipgMEAytwmZp.jpg"
+        }
+    },
+    {
+        "pk": 11218,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                673
+            ],
+            "name": "Alfonso Cuarón",
+            "profile_path": "https://image.tmdb.org/t/p/original/eoCHiXaQzGgx9RiwXnt3k239FLc.jpg"
+        }
+    },
+    {
+        "pk": 1218992,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                332340
+            ],
+            "name": "Ben Palmer",
+            "profile_path": "https://image.tmdb.org/t/p/original/amHZxuDKfrCNHUR6uVomq7JafXk.jpg"
+        }
+    },
+    {
+        "pk": 154705,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                458253
+            ],
+            "name": "Chris Butler",
+            "profile_path": "https://image.tmdb.org/t/p/original/1Og4LcnyrdHfWl6nYEtxLbPHjqn.jpg"
+        }
+    },
+    {
+        "pk": 58712,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                9725
+            ],
+            "name": "Steve Miner",
+            "profile_path": "https://image.tmdb.org/t/p/original/wrd7rzHlMzwwS8CG8mcf6zpm7sE.jpg"
+        }
+    },
+    {
+        "pk": 58712,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                9725
+            ],
+            "name": "Steve Miner",
+            "profile_path": "https://image.tmdb.org/t/p/original/wrd7rzHlMzwwS8CG8mcf6zpm7sE.jpg"
+        }
+    },
+    {
+        "pk": 59,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                101,
+                9992
+            ],
+            "name": "Luc Besson",
+            "profile_path": "https://image.tmdb.org/t/p/original/2TzRsqSx0xb1DK3HsEQKSXhRGcu.jpg"
+        }
+    },
+    {
+        "pk": 1238965,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                233063
+            ],
+            "name": "Bora Dağtekin",
+            "profile_path": "https://image.tmdb.org/t/p/original/uzlEIBPfxZWE1NWZirbjwRYE6xN.jpg"
+        }
+    },
+    {
+        "pk": 59649,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                1497
+            ],
+            "name": "Michael Pressman",
+            "profile_path": "https://image.tmdb.org/t/p/original/svlIYwFa9ATEQnM4QD3iz1G59vq.jpg"
+        }
+    },
+    {
+        "pk": 58324,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                309886
+            ],
+            "name": "Jean-François Richet",
+            "profile_path": "https://image.tmdb.org/t/p/original/PipS4XiDbV0hDfhydX9p8PkqZh.jpg"
+        }
+    },
+    {
+        "pk": 8452,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                31442
+            ],
+            "name": "Andrei Tarkovsky",
+            "profile_path": "https://image.tmdb.org/t/p/original/cEfzcvS6ZfSlpdn4SHsxZsVG0a3.jpg"
+        }
+    },
+    {
+        "pk": 74091,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                198375
+            ],
+            "name": "Makoto Shinkai",
+            "profile_path": "https://image.tmdb.org/t/p/original/xFofUu6o9iVnqh7fbnLLEcolxEw.jpg"
+        }
+    },
+    {
+        "pk": 40345,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                11497,
+                4978
+            ],
+            "name": "Don Bluth",
+            "profile_path": "https://image.tmdb.org/t/p/original/sek7iLDM6J8Poc2FueAkgCUytfn.jpg"
+        }
+    },
+    {
+        "pk": 12881,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                11497
+            ],
+            "name": "Gary Goldman",
+            "profile_path": "https://image.tmdb.org/t/p/original/3GPDphDxHIlT3D8GiMCKsf3X4Rj.jpg"
+        }
+    },
+    {
+        "pk": 69605,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                11497
+            ],
+            "name": "Dan Kuenster",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 69605,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                11497
+            ],
+            "name": "Dan Kuenster",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 69605,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                11497
+            ],
+            "name": "Dan Kuenster",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 5140,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                11596
+            ],
+            "name": "Wes Craven",
+            "profile_path": "https://image.tmdb.org/t/p/original/vffssPtgNn2ZwoMfLCCDJAxlXGI.jpg"
+        }
+    },
+    {
+        "pk": 1062805,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                223485
+            ],
+            "name": "John Maclean",
+            "profile_path": "https://image.tmdb.org/t/p/original/bzqlJ9gbsuUDmhVVzL9eQ18QQUI.jpg"
+        }
+    },
+    {
+        "pk": 119419,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                524247
+            ],
+            "name": "Deon Taylor",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 1163460,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                453755
+            ],
+            "name": "Joe Penna",
+            "profile_path": "https://image.tmdb.org/t/p/original/1xQNv7nR25arh8wQeGfQkZ3Iafc.jpg"
+        }
+    },
+    {
+        "pk": 37948,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                6687,
+                10972
+            ],
+            "name": "Brad Anderson",
+            "profile_path": "https://image.tmdb.org/t/p/original/qjEl3MLqL4MDZFMWO4ukQbBBal0.jpg"
+        }
+    },
+    {
+        "pk": 1152,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                10523
+            ],
+            "name": "Oliver Stone",
+            "profile_path": "https://image.tmdb.org/t/p/original/uHdNGBkrI74eYfUP2Uie7nuo0Nn.jpg"
+        }
+    },
+    {
+        "pk": 130938,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                12246
+            ],
+            "name": "Sergei Bodrov",
+            "profile_path": "https://image.tmdb.org/t/p/original/9f4SPMNwQDA64lkSRgNhvrb1etf.jpg"
+        }
+    },
+    {
+        "pk": 6384,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                76544
+            ],
+            "name": "Keanu Reeves",
+            "profile_path": "https://image.tmdb.org/t/p/original/bOlYWhVuOiU6azC4Bw6zlXZ5QTC.jpg"
+        }
+    },
+    {
+        "pk": 999760,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                93828
+            ],
+            "name": "Eran Creevy",
+            "profile_path": "https://image.tmdb.org/t/p/original/aKUdK4llvXFD9RRITqNXJaSdN4V.jpg"
+        }
+    },
+    {
+        "pk": 999760,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                93828
+            ],
+            "name": "Eran Creevy",
+            "profile_path": "https://image.tmdb.org/t/p/original/aKUdK4llvXFD9RRITqNXJaSdN4V.jpg"
+        }
+    },
+    {
+        "pk": 77965,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                205596
+            ],
+            "name": "Morten Tyldum",
+            "profile_path": "https://image.tmdb.org/t/p/original/rE1zmcXoqtJl5fIa3fKoqnzteyw.jpg"
+        }
+    },
+    {
+        "pk": 65688,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                10587
+            ],
+            "name": "Jim Drake",
+            "profile_path": "https://image.tmdb.org/t/p/original/2a4iZ2zlCcGzKGwoUQlSWRs6iXl.jpg"
+        }
+    },
+    {
+        "pk": 19769,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                228150
+            ],
+            "name": "David Ayer",
+            "profile_path": "https://image.tmdb.org/t/p/original/2oBT2jQbsV8IWPMr3Cm87YBJxGu.jpg"
+        }
+    },
+    {
+        "pk": 4786,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                5902
+            ],
+            "name": "Richard Attenborough",
+            "profile_path": "https://image.tmdb.org/t/p/original/Abo8fAcdruACs344ut6PNSKH7N4.jpg"
+        }
+    },
+    {
+        "pk": 220691,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                293310
+            ],
+            "name": "Laura Poitras",
+            "profile_path": "https://image.tmdb.org/t/p/original/myMSEHXFLQvfFMW8J2WEV5j2OUn.jpg"
+        }
+    },
+    {
+        "pk": 81718,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                110420
+            ],
+            "name": "Mamoru Hosoda",
+            "profile_path": "https://image.tmdb.org/t/p/original/oh1GS6x8cdGkyL4QPKmpMSaD6Wu.jpg"
+        }
+    },
+    {
+        "pk": 81718,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                110420
+            ],
+            "name": "Mamoru Hosoda",
+            "profile_path": "https://image.tmdb.org/t/p/original/oh1GS6x8cdGkyL4QPKmpMSaD6Wu.jpg"
+        }
+    },
+    {
+        "pk": 72036,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                466282
+            ],
+            "name": "Susan Johnson",
+            "profile_path": "https://image.tmdb.org/t/p/original/eCCZ7yEEcmFHLesy75pZr7rvLt4.jpg"
+        }
+    },
+    {
+        "pk": 1401474,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                439079
+            ],
+            "name": "Corin Hardy",
+            "profile_path": "https://image.tmdb.org/t/p/original/p1ggxloo9MMOS72BLGuM3NOzhxQ.jpg"
+        }
+    },
+    {
+        "pk": 17350,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                246080
+            ],
+            "name": "Kevin Macdonald",
+            "profile_path": "https://image.tmdb.org/t/p/original/k46Er5HaZ8FqbNEpBXf9FlnxxOX.jpg"
+        }
+    },
+    {
+        "pk": 7270,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                535
+            ],
+            "name": "Adrian Lyne",
+            "profile_path": "https://image.tmdb.org/t/p/original/fUOF9IbyOZgUJCNZdVamMfLGA2c.jpg"
+        }
+    },
+    {
+        "pk": 54451,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                11046
+            ],
+            "name": "Brian G. Hutton",
+            "profile_path": "https://image.tmdb.org/t/p/original/cem8wlan7z6amIzoeKmAvC8yRZF.jpg"
+        }
+    },
+    {
+        "pk": 15175,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                10479
+            ],
+            "name": "William Friedkin",
+            "profile_path": "https://image.tmdb.org/t/p/original/1iBd92izRHpkSH4hOhcUBmF2cv7.jpg"
+        }
+    },
+    {
+        "pk": 7187,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                526
+            ],
+            "name": "Richard Donner",
+            "profile_path": "https://image.tmdb.org/t/p/original/2G0gyLVJzLmRl4W3sFyaVfxppJJ.jpg"
+        }
+    },
+    {
+        "pk": 12962,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                345940
+            ],
+            "name": "Jon Turteltaub",
+            "profile_path": "https://image.tmdb.org/t/p/original/borF48XTUkOCKE3ryh3BFxe4Unr.jpg"
+        }
+    },
+    {
+        "pk": 12962,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                345940
+            ],
+            "name": "Jon Turteltaub",
+            "profile_path": "https://image.tmdb.org/t/p/original/borF48XTUkOCKE3ryh3BFxe4Unr.jpg"
+        }
+    },
+    {
+        "pk": 12962,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                345940
+            ],
+            "name": "Jon Turteltaub",
+            "profile_path": "https://image.tmdb.org/t/p/original/borF48XTUkOCKE3ryh3BFxe4Unr.jpg"
+        }
+    },
+    {
+        "pk": 12962,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                345940
+            ],
+            "name": "Jon Turteltaub",
+            "profile_path": "https://image.tmdb.org/t/p/original/borF48XTUkOCKE3ryh3BFxe4Unr.jpg"
+        }
+    },
+    {
+        "pk": 114334,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                157845
+            ],
+            "name": "David Michôd",
+            "profile_path": "https://image.tmdb.org/t/p/original/2BD1vy3Q96l7jhXdA3t8KM8xkmP.jpg"
+        }
+    },
+    {
+        "pk": 124579,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                503129
+            ],
+            "name": "Punit Malhotra",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 54025,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                471507
+            ],
+            "name": "Karyn Kusama",
+            "profile_path": "https://image.tmdb.org/t/p/original/d8jLYxsHkoPJiGXvps9SD7zVdAc.jpg"
+        }
+    },
+    {
+        "pk": 6733,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                150117
+            ],
+            "name": "Dan Mazer",
+            "profile_path": "https://image.tmdb.org/t/p/original/AibJrdiVq0nZmSeNAGSrlY0yIi1.jpg"
+        }
+    },
+    {
+        "pk": 56209,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                221902
+            ],
+            "name": "Jean-Pierre Dardenne",
+            "profile_path": "https://image.tmdb.org/t/p/original/kn4tpNTPwWODCu356VHzCjGzSG0.jpg"
+        }
+    },
+    {
+        "pk": 45138,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                221902
+            ],
+            "name": "Luc Dardenne",
+            "profile_path": "https://image.tmdb.org/t/p/original/rZRSDYFQn0MJE1ZQHYIsFnO06XC.jpg"
+        }
+    },
+    {
+        "pk": 141962,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                433808
+            ],
+            "name": "David Bruckner",
+            "profile_path": "https://image.tmdb.org/t/p/original/ogcp72B4ry8Rtbj8trpsplHBz7W.jpg"
+        }
+    },
+    {
+        "pk": 84714,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                153158
+            ],
+            "name": "Juan José Campanella",
+            "profile_path": "https://image.tmdb.org/t/p/original/iKVUxd1703lmb6E0jNdHyeuK8ne.jpg"
+        }
+    },
+    {
+        "pk": 64194,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                209274
+            ],
+            "name": "Paweł Pawlikowski",
+            "profile_path": "https://image.tmdb.org/t/p/original/q21Igd2cSUjlKVjTLxZz0eWvp0p.jpg"
+        }
+    },
+    {
+        "pk": 64194,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                209274
+            ],
+            "name": "Paweł Pawlikowski",
+            "profile_path": "https://image.tmdb.org/t/p/original/q21Igd2cSUjlKVjTLxZz0eWvp0p.jpg"
+        }
+    },
+    {
+        "pk": 64194,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                209274
+            ],
+            "name": "Paweł Pawlikowski",
+            "profile_path": "https://image.tmdb.org/t/p/original/q21Igd2cSUjlKVjTLxZz0eWvp0p.jpg"
+        }
+    },
+    {
+        "pk": 23799,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                168705,
+                2312
+            ],
+            "name": "Uwe Boll",
+            "profile_path": "https://image.tmdb.org/t/p/original/1zfnrStCzUo4hUTvsKyEu4C3SP6.jpg"
+        }
+    },
+    {
+        "pk": 90367,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                382322
+            ],
+            "name": "Sam Liu",
+            "profile_path": "https://image.tmdb.org/t/p/original/3u01dPeS4Us9sUFzwS8DzjA3udr.jpg"
+        }
+    },
+    {
+        "pk": 2917,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                3035
+            ],
+            "name": "James Whale",
+            "profile_path": "https://image.tmdb.org/t/p/original/xyJ2YCs8eUZoPQ5SUHGadFosEWR.jpg"
+        }
+    },
+    {
+        "pk": 84931,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                245916
+            ],
+            "name": "Michael Cuesta",
+            "profile_path": "https://image.tmdb.org/t/p/original/n3iTN6e1Bq13WlalqddULpsnEUn.jpg"
+        }
+    },
+    {
+        "pk": 859754,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                84287
+            ],
+            "name": "Bart Layton",
+            "profile_path": "https://image.tmdb.org/t/p/original/b2BWSqBVp0QpXsRv4atJFzlwnL2.jpg"
+        }
+    },
+    {
+        "pk": 6047,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                300681
+            ],
+            "name": "Jeffrey Nachmanoff",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 224,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                157851,
+                9538
+            ],
+            "name": "David Cronenberg",
+            "profile_path": "https://image.tmdb.org/t/p/original/nFHIlkIuile5RmtSqbyCB4w8SpH.jpg"
+        }
+    },
+    {
+        "pk": 4600,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                2614
+            ],
+            "name": "Joe Dante",
+            "profile_path": "https://image.tmdb.org/t/p/original/7Z5R4cCY1k5XHdsFd2LYr3WWXdb.jpg"
+        }
+    },
+    {
+        "pk": 71792,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                12233
+            ],
+            "name": "George Scribner",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 71792,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                12233
+            ],
+            "name": "George Scribner",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 5446,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                408
+            ],
+            "name": "David Hand",
+            "profile_path": "https://image.tmdb.org/t/p/original/4VzUnNNHSwGT0qH99Zgd0nhmmIU.jpg"
+        }
+    },
+    {
+        "pk": 5446,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                408
+            ],
+            "name": "David Hand",
+            "profile_path": "https://image.tmdb.org/t/p/original/4VzUnNNHSwGT0qH99Zgd0nhmmIU.jpg"
+        }
+    },
+    {
+        "pk": 5446,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                408
+            ],
+            "name": "David Hand",
+            "profile_path": "https://image.tmdb.org/t/p/original/4VzUnNNHSwGT0qH99Zgd0nhmmIU.jpg"
+        }
+    },
+    {
+        "pk": 34849,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                6522
+            ],
+            "name": "Ted Demme",
+            "profile_path": "https://image.tmdb.org/t/p/original/1YVhJuhhgiLXZTOD7nK6nr1jtEC.jpg"
+        }
+    },
+    {
+        "pk": 65678,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                11186
+            ],
+            "name": "John Lafia",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 23968,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                2322
+            ],
+            "name": "Phil Alden Robinson",
+            "profile_path": "https://image.tmdb.org/t/p/original/cYgEgM3MxDb0I1olvrZNHXjuC6I.jpg"
+        }
+    },
+    {
+        "pk": 23968,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                2322
+            ],
+            "name": "Phil Alden Robinson",
+            "profile_path": "https://image.tmdb.org/t/p/original/cYgEgM3MxDb0I1olvrZNHXjuC6I.jpg"
+        }
+    },
+    {
+        "pk": 23968,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                2322
+            ],
+            "name": "Phil Alden Robinson",
+            "profile_path": "https://image.tmdb.org/t/p/original/cYgEgM3MxDb0I1olvrZNHXjuC6I.jpg"
+        }
+    },
+    {
+        "pk": 66193,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                10191
+            ],
+            "name": "Chris Sanders",
+            "profile_path": "https://image.tmdb.org/t/p/original/m4kZMS2J0AFjlAuwtijEmsOXYfc.jpg"
+        }
+    },
+    {
+        "pk": 29922,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                1534
+            ],
+            "name": "Marcus Nispel",
+            "profile_path": "https://image.tmdb.org/t/p/original/gKvwpCr23UxQIuS4yJZhTvHLN0C.jpg"
+        }
+    },
+    {
+        "pk": 82337,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                454652
+            ],
+            "name": "Wash Westmoreland",
+            "profile_path": "https://image.tmdb.org/t/p/original/rTdgTh65G9OolHtM53BwalIwKOf.jpg"
+        }
+    },
+    {
+        "pk": 64141,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                157847
+            ],
+            "name": "David Gordon Green",
+            "profile_path": "https://image.tmdb.org/t/p/original/3ASxWOzEbMsBqqeQHoIbWvhfkod.jpg"
+        }
+    },
+    {
+        "pk": 113911,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                13851
+            ],
+            "name": "Yasuhiro Aoki",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 1207951,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                13851
+            ],
+            "name": "Futoshi Higashide",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 1056311,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                13851
+            ],
+            "name": "Toshiyuki Kubooka",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 221764,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                13851
+            ],
+            "name": "Hiroshi Morioka",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 930221,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                13851
+            ],
+            "name": "Jong-Sik Nam",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 1207953,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                13851
+            ],
+            "name": "Shoujirou Nishimi",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 44056,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                5550
+            ],
+            "name": "Fred Dekker",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 44056,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                5550
+            ],
+            "name": "Fred Dekker",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 49903,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                9513
+            ],
+            "name": "Tim Hill",
+            "profile_path": "https://image.tmdb.org/t/p/original/jN6KyRKLoI1UgC1EnyAEYJ5uDYy.jpg"
+        }
+    },
+    {
+        "pk": 1760449,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                571786
+            ],
+            "name": "Jung Da-won",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 11770,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                790,
+                10016
+            ],
+            "name": "John Carpenter",
+            "profile_path": "https://image.tmdb.org/t/p/original/jGprVNNSmlJzLNhm2tcdmjquLyL.jpg"
+        }
+    },
+    {
+        "pk": 9181,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                245698
+            ],
+            "name": "Edward Zwick",
+            "profile_path": "https://image.tmdb.org/t/p/original/ucBi071XeIGMEHaEGKtU6PN1FwN.jpg"
+        }
+    },
+    {
+        "pk": 20907,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                345887,
+                156022
+            ],
+            "name": "Antoine Fuqua",
+            "profile_path": "https://image.tmdb.org/t/p/original/z8BLZcMQxE4GqUiEc2gsoAzc8xS.jpg"
+        }
+    },
+    {
+        "pk": 26775,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                12207
+            ],
+            "name": "Liu Chia-Liang",
+            "profile_path": "https://image.tmdb.org/t/p/original/1cKWtvMp0onUAn4OfuclM1693gn.jpg"
+        }
+    },
+    {
+        "pk": 21475,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                26123
+            ],
+            "name": "John Putch",
+            "profile_path": "https://image.tmdb.org/t/p/original/9JBDOLXqdJiAvUOU0fO5bWnk292.jpg"
+        }
+    },
+    {
+        "pk": 1748,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                172
+            ],
+            "name": "William Shatner",
+            "profile_path": "https://image.tmdb.org/t/p/original/4byp8PsbRkC3UQVuvMAh4bcj7E2.jpg"
+        }
+    },
+    {
+        "pk": 10808,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                36647
+            ],
+            "name": "Stephen Norrington",
+            "profile_path": "https://image.tmdb.org/t/p/original/8BG5bnmk28IMRN8diyTwExn68HI.jpg"
+        }
+    },
+    {
+        "pk": 170820,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                226486
+            ],
+            "name": "Ben Falcone",
+            "profile_path": "https://image.tmdb.org/t/p/original/abhsMUOZKyAGPK3uZPdf3UQ5MuZ.jpg"
+        }
+    },
+    {
+        "pk": 56828,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                11967
+            ],
+            "name": "Christopher Cain",
+            "profile_path": "https://image.tmdb.org/t/p/original/atUMxA5Anavwqdd5tH3B3S8ayli.jpg"
+        }
+    },
+    {
+        "pk": 52443,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                130150
+            ],
+            "name": "Jason Reitman",
+            "profile_path": "https://image.tmdb.org/t/p/original/bW44MnIOve5kqqtcmmbzBre0N7D.jpg"
+        }
+    },
+    {
+        "pk": 41720,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                12118
+            ],
+            "name": "Jerry Paris",
+            "profile_path": "https://image.tmdb.org/t/p/original/mVcAxdJG3uFVhr5erMCOZvla9UA.jpg"
+        }
+    },
+    {
+        "pk": 52194,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                9064
+            ],
+            "name": "Tony Randel",
+            "profile_path": "https://image.tmdb.org/t/p/original/gyDJpk5CBU5UuKVrezdwwbeFg25.jpg"
+        }
+    },
+    {
+        "pk": 2042,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                1683
+            ],
+            "name": "Stephen Hopkins",
+            "profile_path": "https://image.tmdb.org/t/p/original/zHwFIL63LbeSS83FMC8J6TAgDNL.jpg"
+        }
+    },
+    {
+        "pk": 2019662,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                517166
+            ],
+            "name": "Nicholas Woods",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 66728,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                11826
+            ],
+            "name": "Jonathan Glazer",
+            "profile_path": "https://image.tmdb.org/t/p/original/uzxOQxv6DtiEPIl06TWJ9hORKCV.jpg"
+        }
+    },
+    {
+        "pk": 66728,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                11826
+            ],
+            "name": "Jonathan Glazer",
+            "profile_path": "https://image.tmdb.org/t/p/original/uzxOQxv6DtiEPIl06TWJ9hORKCV.jpg"
+        }
+    },
+    {
+        "pk": 118639,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                74997
+            ],
+            "name": "Tom Six",
+            "profile_path": "https://image.tmdb.org/t/p/original/dkj0gsN4twgJqhQmI4EY2OnGW6D.jpg"
+        }
+    },
+    {
+        "pk": 51984,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                339380
+            ],
+            "name": "Mimi Leder",
+            "profile_path": "https://image.tmdb.org/t/p/original/2ULHtgL3NMQ89H3kcg2AM5Nf96.jpg"
+        }
+    },
+    {
+        "pk": 18898,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                10756,
+                8587
+            ],
+            "name": "Rob Minkoff",
+            "profile_path": "https://image.tmdb.org/t/p/original/e7oHC3qavuzmH8HzOCkpOLaecKz.jpg"
+        }
+    },
+    {
+        "pk": 86203,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                24122
+            ],
+            "name": "Bart Freundlich",
+            "profile_path": "https://image.tmdb.org/t/p/original/8xrjH3jOaOCxTjiYqnxL2Up8PEi.jpg"
+        }
+    },
+    {
+        "pk": 86203,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                24122
+            ],
+            "name": "Bart Freundlich",
+            "profile_path": "https://image.tmdb.org/t/p/original/8xrjH3jOaOCxTjiYqnxL2Up8PEi.jpg"
+        }
+    },
+    {
+        "pk": 86203,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                24122
+            ],
+            "name": "Bart Freundlich",
+            "profile_path": "https://image.tmdb.org/t/p/original/8xrjH3jOaOCxTjiYqnxL2Up8PEi.jpg"
+        }
+    },
+    {
+        "pk": 86203,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                24122
+            ],
+            "name": "Bart Freundlich",
+            "profile_path": "https://image.tmdb.org/t/p/original/8xrjH3jOaOCxTjiYqnxL2Up8PEi.jpg"
+        }
+    },
+    {
+        "pk": 133502,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                304357
+            ],
+            "name": "Simon Curtis",
+            "profile_path": "https://image.tmdb.org/t/p/original/mpMyd3Cc7WG2epXYCbdDmcMX2BD.jpg"
+        }
+    },
+    {
+        "pk": 133502,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                304357
+            ],
+            "name": "Simon Curtis",
+            "profile_path": "https://image.tmdb.org/t/p/original/mpMyd3Cc7WG2epXYCbdDmcMX2BD.jpg"
+        }
+    },
+    {
+        "pk": 8246,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                8984
+            ],
+            "name": "Barry Levinson",
+            "profile_path": "https://image.tmdb.org/t/p/original/AvPOBBODhSCtUJAqxeq2s0nYnTw.jpg"
+        }
+    },
+    {
+        "pk": 24318,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                10466
+            ],
+            "name": "Richard Benjamin",
+            "profile_path": "https://image.tmdb.org/t/p/original/9BQ5QcoCA7sfQzPvBpX8U4zDXqn.jpg"
+        }
+    },
+    {
+        "pk": 3831,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                5511
+            ],
+            "name": "Jean-Pierre Melville",
+            "profile_path": "https://image.tmdb.org/t/p/original/f0wFxF6dLUdO6a9AIhcV51prFEK.jpg"
+        }
+    },
+    {
+        "pk": 39996,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                4176
+            ],
+            "name": "Sidney Lumet",
+            "profile_path": "https://image.tmdb.org/t/p/original/sOo8jatHC3heDbC2FAOteBXe3z2.jpg"
+        }
+    },
+    {
+        "pk": 39996,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                4176
+            ],
+            "name": "Sidney Lumet",
+            "profile_path": "https://image.tmdb.org/t/p/original/sOo8jatHC3heDbC2FAOteBXe3z2.jpg"
+        }
+    },
+    {
+        "pk": 1443611,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                331962
+            ],
+            "name": "Gee Malik Linton",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 12028,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                11866
+            ],
+            "name": "John Moore",
+            "profile_path": "https://image.tmdb.org/t/p/original/1zFWQ0hCvRgfXlQ3NaUn2HzChBW.jpg"
+        }
+    },
+    {
+        "pk": 2226,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                606
+            ],
+            "name": "Sydney Pollack",
+            "profile_path": "https://image.tmdb.org/t/p/original/zxkoU2diKtvarV1Qk4z9He2lJj9.jpg"
+        }
+    },
+    {
+        "pk": 1117026,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                191714
+            ],
+            "name": "Ritesh Batra",
+            "profile_path": "https://image.tmdb.org/t/p/original/uKEnSsgS6LwjPZ0q0RCL9ZpZjMV.jpg"
+        }
+    },
+    {
+        "pk": 1117026,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                191714
+            ],
+            "name": "Ritesh Batra",
+            "profile_path": "https://image.tmdb.org/t/p/original/uKEnSsgS6LwjPZ0q0RCL9ZpZjMV.jpg"
+        }
+    },
+    {
+        "pk": 53120,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                238636
+            ],
+            "name": "James DeMonaco",
+            "profile_path": "https://image.tmdb.org/t/p/original/xaI54hbO8pwMnQ5oTCIo5xscFro.jpg"
+        }
+    },
+    {
+        "pk": 4387,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                121875
+            ],
+            "name": "François Ozon",
+            "profile_path": "https://image.tmdb.org/t/p/original/zcrMs8YX5f89Ax2mEDCtaLvwKiE.jpg"
+        }
+    },
+    {
+        "pk": 12786,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                2275
+            ],
+            "name": "Simon West",
+            "profile_path": "https://image.tmdb.org/t/p/original/dgg76ebEa1KMdclIL0UrYQTOK7H.jpg"
+        }
+    },
+    {
+        "pk": 558929,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                396461
+            ],
+            "name": "David Robert Mitchell",
+            "profile_path": "https://image.tmdb.org/t/p/original/sBMvMf13HRdHFNydZvgPJrjtkai.jpg"
+        }
+    },
+    {
+        "pk": 57434,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                11418
+            ],
+            "name": "Amy Heckerling",
+            "profile_path": "https://image.tmdb.org/t/p/original/c68tZT9Be1triBbKmSOKCS3dsBI.jpg"
+        }
+    },
+    {
+        "pk": 65298,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                10437
+            ],
+            "name": "Brian Henson",
+            "profile_path": "https://image.tmdb.org/t/p/original/m2Bczi1gvhnIYCGp8Fhg2QCPuNf.jpg"
+        }
+    },
+    {
+        "pk": 264113,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                75802
+            ],
+            "name": "Tanya Wexler",
+            "profile_path": "https://image.tmdb.org/t/p/original/8A4gzFI0z5mKuodMyNICQ8npt2Z.jpg"
+        }
+    },
+    {
+        "pk": 264113,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                75802
+            ],
+            "name": "Tanya Wexler",
+            "profile_path": "https://image.tmdb.org/t/p/original/8A4gzFI0z5mKuodMyNICQ8npt2Z.jpg"
+        }
+    },
+    {
+        "pk": 18897,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                10975
+            ],
+            "name": "Jackie Chan",
+            "profile_path": "https://image.tmdb.org/t/p/original/pmKJ4sGvPQ3imzXaFnjW4Vk5Gyc.jpg"
+        }
+    },
+    {
+        "pk": 87877,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                338970
+            ],
+            "name": "Roar Uthaug",
+            "profile_path": "https://image.tmdb.org/t/p/original/92PL9gKDnVN67e6Q25spP2UNi1y.jpg"
+        }
+    },
+    {
+        "pk": 87877,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                338970
+            ],
+            "name": "Roar Uthaug",
+            "profile_path": "https://image.tmdb.org/t/p/original/92PL9gKDnVN67e6Q25spP2UNi1y.jpg"
+        }
+    },
+    {
+        "pk": 107274,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                22586
+            ],
+            "name": "Richard Rich",
+            "profile_path": "https://image.tmdb.org/t/p/original/ygeJUnHFiYjecmBLBPBie81JMLm.jpg"
+        }
+    },
+    {
+        "pk": 107274,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                22586
+            ],
+            "name": "Richard Rich",
+            "profile_path": "https://image.tmdb.org/t/p/original/ygeJUnHFiYjecmBLBPBie81JMLm.jpg"
+        }
+    },
+    {
+        "pk": 93288,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                245168
+            ],
+            "name": "Sarah Gavron",
+            "profile_path": "https://image.tmdb.org/t/p/original/5fVcGTQJq8UObOmQgrivf6LntOA.jpg"
+        }
+    },
+    {
+        "pk": 20310,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                1975
+            ],
+            "name": "Takashi Shimizu",
+            "profile_path": "https://image.tmdb.org/t/p/original/fXpW0Cx0dLEtWpJvsKHOIDaSFn7.jpg"
+        }
+    },
+    {
+        "pk": 20310,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                1975
+            ],
+            "name": "Takashi Shimizu",
+            "profile_path": "https://image.tmdb.org/t/p/original/fXpW0Cx0dLEtWpJvsKHOIDaSFn7.jpg"
+        }
+    },
+    {
+        "pk": 608,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                8392
+            ],
+            "name": "Hayao Miyazaki",
+            "profile_path": "https://image.tmdb.org/t/p/original/1OBQPIwR88n49oAEzk47k0fhhOV.jpg"
+        }
+    },
+    {
+        "pk": 59611,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                86597
+            ],
+            "name": "Pascal Laugier",
+            "profile_path": "https://image.tmdb.org/t/p/original/jfRV2BRpKfHo0ff9nxrhIT03iUv.jpg"
+        }
+    },
+    {
+        "pk": 18635,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                10648
+            ],
+            "name": "Ted Post",
+            "profile_path": "https://image.tmdb.org/t/p/original/knADACiRl8Bn45BXNb0RDy3BfVf.jpg"
+        }
+    },
+    {
+        "pk": 7623,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                559
+            ],
+            "name": "Sam Raimi",
+            "profile_path": "https://image.tmdb.org/t/p/original/uEAaCUJzyMI8N5mOVyLtaOPKoEf.jpg"
+        }
+    },
+    {
+        "pk": 47826,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                527729
+            ],
+            "name": "Alexandre Astier",
+            "profile_path": "https://image.tmdb.org/t/p/original/wRa1DsdpMpttU1ypzslpbfKM9Gb.jpg"
+        }
+    },
+    {
+        "pk": 1397397,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                527729
+            ],
+            "name": "Louis Clichy",
+            "profile_path": "https://image.tmdb.org/t/p/original/jc6e7PVJVIYvDft7D37I95kxZVs.jpg"
+        }
+    },
+    {
+        "pk": 4499,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                10052
+            ],
+            "name": "Tom Shadyac",
+            "profile_path": "https://image.tmdb.org/t/p/original/8CtwYIVmCSDQ9F1SXFpifKW0N3v.jpg"
+        }
+    },
+    {
+        "pk": 8844,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                397
+            ],
+            "name": "Lawrence Kasdan",
+            "profile_path": "https://image.tmdb.org/t/p/original/hZAQC6MLyR1oLHRKEZ1oUEvh0Sy.jpg"
+        }
+    },
+    {
+        "pk": 6349,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                4477
+            ],
+            "name": "Alan J. Pakula",
+            "profile_path": "https://image.tmdb.org/t/p/original/vzvxrcoFirt0LJb0hG0ezP64mYr.jpg"
+        }
+    },
+    {
+        "pk": 6349,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                4477
+            ],
+            "name": "Alan J. Pakula",
+            "profile_path": "https://image.tmdb.org/t/p/original/vzvxrcoFirt0LJb0hG0ezP64mYr.jpg"
+        }
+    },
+    {
+        "pk": 130256,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                44114
+            ],
+            "name": "Salvador García Ruiz",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 130256,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                44114
+            ],
+            "name": "Salvador García Ruiz",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 130256,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                44114
+            ],
+            "name": "Salvador García Ruiz",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 33315,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                9754
+            ],
+            "name": "Richard Loncraine",
+            "profile_path": "https://image.tmdb.org/t/p/original/j700yY5SyI1EZegFpL4h77Otu5W.jpg"
+        }
+    },
+    {
+        "pk": 11092,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                320288
+            ],
+            "name": "Simon Kinberg",
+            "profile_path": "https://image.tmdb.org/t/p/original/yXlDADc2rLEMLTFZAw9irqXMq2J.jpg"
+        }
+    },
+    {
+        "pk": 11092,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                320288
+            ],
+            "name": "Simon Kinberg",
+            "profile_path": "https://image.tmdb.org/t/p/original/yXlDADc2rLEMLTFZAw9irqXMq2J.jpg"
+        }
+    },
+    {
+        "pk": 5174,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                9530
+            ],
+            "name": "Barry Sonnenfeld",
+            "profile_path": "https://image.tmdb.org/t/p/original/m8vIfbXI44Fd8VK7HSJRisYQjQc.jpg"
+        }
+    },
+    {
+        "pk": 1146,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                84165
+            ],
+            "name": "Julie Delpy",
+            "profile_path": "https://image.tmdb.org/t/p/original/rd40f4QpAUUne3hMaUhHrZtcK2c.jpg"
+        }
+    },
+    {
+        "pk": 119368,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                80038
+            ],
+            "name": "Jennifer Westfeldt",
+            "profile_path": "https://image.tmdb.org/t/p/original/1hlgOcncHWUFaLN2ZrweNl6qMOw.jpg"
+        }
+    },
+    {
+        "pk": 18596,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                2623
+            ],
+            "name": "Taylor Hackford",
+            "profile_path": "https://image.tmdb.org/t/p/original/heZfdghufTV3t3ayrWvIuiP1jvb.jpg"
+        }
+    },
+    {
+        "pk": 18596,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                2623
+            ],
+            "name": "Taylor Hackford",
+            "profile_path": "https://image.tmdb.org/t/p/original/heZfdghufTV3t3ayrWvIuiP1jvb.jpg"
+        }
+    },
+    {
+        "pk": 1496,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                136
+            ],
+            "name": "Tod Browning",
+            "profile_path": "https://image.tmdb.org/t/p/original/wa7wBDm53jcYgpmfa5633yx75HS.jpg"
+        }
+    },
+    {
+        "pk": 930707,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                135397
+            ],
+            "name": "Colin Trevorrow",
+            "profile_path": "https://image.tmdb.org/t/p/original/txsIRCos9meRg5dYCsrJ2BNbrsB.jpg"
+        }
+    },
+    {
+        "pk": 36805,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                10934
+            ],
+            "name": "Audrey Wells",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 229002,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                178809
+            ],
+            "name": "Jeff Renfroe",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 50767,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                198185
+            ],
+            "name": "Craig Gillespie",
+            "profile_path": "https://image.tmdb.org/t/p/original/yW10jwICM43dxAYQJ4Spq6ivhhh.jpg"
+        }
+    },
+    {
+        "pk": 50767,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                198185
+            ],
+            "name": "Craig Gillespie",
+            "profile_path": "https://image.tmdb.org/t/p/original/yW10jwICM43dxAYQJ4Spq6ivhhh.jpg"
+        }
+    },
+    {
+        "pk": 17281,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                3604
+            ],
+            "name": "Mike Hodges",
+            "profile_path": "https://image.tmdb.org/t/p/original/35mcdpwimATfaeEGpLhR0iVJ2Ep.jpg"
+        }
+    },
+    {
+        "pk": 17281,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                3604
+            ],
+            "name": "Mike Hodges",
+            "profile_path": "https://image.tmdb.org/t/p/original/35mcdpwimATfaeEGpLhR0iVJ2Ep.jpg"
+        }
+    },
+    {
+        "pk": 17281,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                3604
+            ],
+            "name": "Mike Hodges",
+            "profile_path": "https://image.tmdb.org/t/p/original/35mcdpwimATfaeEGpLhR0iVJ2Ep.jpg"
+        }
+    },
+    {
+        "pk": 2000,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                143
+            ],
+            "name": "Lewis Milestone",
+            "profile_path": "https://image.tmdb.org/t/p/original/qBEYKHYyjbMoaJBZtQgVe6fVa5v.jpg"
+        }
+    },
+    {
+        "pk": 90812,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                336004
+            ],
+            "name": "Scott Mann",
+            "profile_path": "https://image.tmdb.org/t/p/original/8WygpUzfdfztZQqxGE5zn3rCedJ.jpg"
+        }
+    },
+    {
+        "pk": 18356,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                10057
+            ],
+            "name": "Stephen Herek",
+            "profile_path": "https://image.tmdb.org/t/p/original/v6eEBvBiOoMZwrbbU30u4ObmDWE.jpg"
+        }
+    },
+    {
+        "pk": 37710,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                4437
+            ],
+            "name": "Peter Hyams",
+            "profile_path": "https://image.tmdb.org/t/p/original/dAuDsStGGlUESaaAYQf0GCE2JWo.jpg"
+        }
+    },
+    {
+        "pk": 30008,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                3063
+            ],
+            "name": "Leo McCarey",
+            "profile_path": "https://image.tmdb.org/t/p/original/l66PVNnScSS20J5nff1mqyNgOge.jpg"
+        }
+    },
+    {
+        "pk": 1182269,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                457136
+            ],
+            "name": "Josie Rourke",
+            "profile_path": "https://image.tmdb.org/t/p/original/3F1E0K3KzPiWaWbcuWiHK6oqZwO.jpg"
+        }
+    },
+    {
+        "pk": 1140271,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                41602
+            ],
+            "name": "Fredrik Bond",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 79279,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                333385
+            ],
+            "name": "Paco Cabezas",
+            "profile_path": "https://image.tmdb.org/t/p/original/aQm4jU9Hgd6Sv3AJqQGzKNN7a52.jpg"
+        }
+    },
+    {
+        "pk": 79279,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                333385
+            ],
+            "name": "Paco Cabezas",
+            "profile_path": "https://image.tmdb.org/t/p/original/aQm4jU9Hgd6Sv3AJqQGzKNN7a52.jpg"
+        }
+    },
+    {
+        "pk": 607,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                1494
+            ],
+            "name": "Zhang Yimou",
+            "profile_path": "https://image.tmdb.org/t/p/original/uU5vECl94jDQYjiRk4eOpVRMEi9.jpg"
+        }
+    },
+    {
+        "pk": 40863,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                172533
+            ],
+            "name": "Joe Swanberg",
+            "profile_path": "https://image.tmdb.org/t/p/original/nG4oDcuPaNmk8lnSyzQi9UDLRbl.jpg"
+        }
+    },
+    {
+        "pk": 10723,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                674
+            ],
+            "name": "Mike Newell",
+            "profile_path": "https://image.tmdb.org/t/p/original/aE6M4LhrTqtQ8i3WI5QeZAFN4pO.jpg"
+        }
+    },
+    {
+        "pk": 73588,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                12192
+            ],
+            "name": "Marc Schölermann",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 33008,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                1825
+            ],
+            "name": "Menahem Golan",
+            "profile_path": "https://image.tmdb.org/t/p/original/qGtHMLd4E7tRyw75H4lWTRelW7B.jpg"
+        }
+    },
+    {
+        "pk": 15812,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                8587
+            ],
+            "name": "Roger Allers",
+            "profile_path": "https://image.tmdb.org/t/p/original/mhtEhbLfUWZZeHAFZY4Espf3mUr.jpg"
+        }
+    },
+    {
+        "pk": 15812,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                8587
+            ],
+            "name": "Roger Allers",
+            "profile_path": "https://image.tmdb.org/t/p/original/mhtEhbLfUWZZeHAFZY4Espf3mUr.jpg"
+        }
+    },
+    {
+        "pk": 15812,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                8587
+            ],
+            "name": "Roger Allers",
+            "profile_path": "https://image.tmdb.org/t/p/original/mhtEhbLfUWZZeHAFZY4Espf3mUr.jpg"
+        }
+    },
+    {
+        "pk": 15812,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                8587
+            ],
+            "name": "Roger Allers",
+            "profile_path": "https://image.tmdb.org/t/p/original/mhtEhbLfUWZZeHAFZY4Espf3mUr.jpg"
+        }
+    },
+    {
+        "pk": 15812,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                8587
+            ],
+            "name": "Roger Allers",
+            "profile_path": "https://image.tmdb.org/t/p/original/mhtEhbLfUWZZeHAFZY4Espf3mUr.jpg"
+        }
+    },
+    {
+        "pk": 1103,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                6279
+            ],
+            "name": "Bill Duke",
+            "profile_path": "https://image.tmdb.org/t/p/original/46uPgJKKjAhPak4G7526ZFHiRvA.jpg"
+        }
+    },
+    {
+        "pk": 16848,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                24150
+            ],
+            "name": "Rob Zombie",
+            "profile_path": "https://image.tmdb.org/t/p/original/2LGOgBVEAqC2rStyY7ys0wHNbEs.jpg"
+        }
+    },
+    {
+        "pk": 2182985,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                564394
+            ],
+            "name": "Clint Cure",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 21981,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                435577
+            ],
+            "name": "Harald Zwart",
+            "profile_path": "https://image.tmdb.org/t/p/original/1ncMe83Yo8SAj2o8z71eGQUPMBK.jpg"
+        }
+    },
+    {
+        "pk": 933739,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                87499
+            ],
+            "name": "Zal Batmanglij",
+            "profile_path": "https://image.tmdb.org/t/p/original/kkDU7v5eDZTWbRIoPsRYT3AdcoG.jpg"
+        }
+    },
+    {
+        "pk": 143966,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                443055
+            ],
+            "name": "Joan Carr-Wiggin",
+            "profile_path": "https://image.tmdb.org/t/p/original/nA8MyVs6VwDG7EoPCd1g66ShyU1.jpg"
+        }
+    },
+    {
+        "pk": 1776,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                238
+            ],
+            "name": "Francis Ford Coppola",
+            "profile_path": "https://image.tmdb.org/t/p/original/mDNBl1DUkC1BkkMsbtaNEFQQaHu.jpg"
+        }
+    },
+    {
+        "pk": 56150,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                8869
+            ],
+            "name": "Ellory Elkayem",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 41039,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                4964
+            ],
+            "name": "Judd Apatow",
+            "profile_path": "https://image.tmdb.org/t/p/original/iXlnv4NvZkmhB7bJBXea5T21gBT.jpg"
+        }
+    },
+    {
+        "pk": 1167470,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                49017
+            ],
+            "name": "Gary Shore",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 19665,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                11527
+            ],
+            "name": "John Boorman",
+            "profile_path": "https://image.tmdb.org/t/p/original/zPZkbiZms6DUZz74xLLFFGUJY0n.jpg"
+        }
+    },
+    {
+        "pk": 1769,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                39210
+            ],
+            "name": "Sofia Coppola",
+            "profile_path": "https://image.tmdb.org/t/p/original/dzHC2LxmarkBxWLhjp2DRa5oCev.jpg"
+        }
+    },
+    {
+        "pk": 20307,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                166426
+            ],
+            "name": "Joachim Rønning",
+            "profile_path": "https://image.tmdb.org/t/p/original/6Ngvvc3WIPgg7L0vvMUYs4uHYjR.jpg"
+        }
+    },
+    {
+        "pk": 20308,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                166426
+            ],
+            "name": "Espen Sandberg",
+            "profile_path": "https://image.tmdb.org/t/p/original/meoiaU4mxGVHFHLIedATpqROEnz.jpg"
+        }
+    },
+    {
+        "pk": 20308,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                166426
+            ],
+            "name": "Espen Sandberg",
+            "profile_path": "https://image.tmdb.org/t/p/original/meoiaU4mxGVHFHLIedATpqROEnz.jpg"
+        }
+    },
+    {
+        "pk": 45572,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                8689
+            ],
+            "name": "Ruggero Deodato",
+            "profile_path": "https://image.tmdb.org/t/p/original/ch3fxMfiKSApYH5XQMIw9T30KdJ.jpg"
+        }
+    },
+    {
+        "pk": 68573,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                22949
+            ],
+            "name": "Walt Becker",
+            "profile_path": "https://image.tmdb.org/t/p/original/ioshEghgcfUsaDN2rYfEJDPBUqZ.jpg"
+        }
+    },
+    {
+        "pk": 68573,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                22949
+            ],
+            "name": "Walt Becker",
+            "profile_path": "https://image.tmdb.org/t/p/original/ioshEghgcfUsaDN2rYfEJDPBUqZ.jpg"
+        }
+    },
+    {
+        "pk": 231866,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                190469
+            ],
+            "name": "Emilis Vėlyvis",
+            "profile_path": "https://image.tmdb.org/t/p/original/ylW0FZrk0HTB7Z0so6ysBviN66a.jpg"
+        }
+    },
+    {
+        "pk": 95501,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                18148
+            ],
+            "name": "Yasujirō Ozu",
+            "profile_path": "https://image.tmdb.org/t/p/original/xq5SKmMDxsmnLn75FBqPjQ0xbP4.jpg"
+        }
+    },
+    {
+        "pk": 57646,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                10539
+            ],
+            "name": "Henry Selick",
+            "profile_path": "https://image.tmdb.org/t/p/original/6JkYvs9ce3vMvCqWXzGPUzpCKkJ.jpg"
+        }
+    },
+    {
+        "pk": 17268,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                11932
+            ],
+            "name": "Ronny Yu",
+            "profile_path": "https://image.tmdb.org/t/p/original/uOCTwD8l6WDvo1kMAEvnF5pBnAH.jpg"
+        }
+    },
+    {
+        "pk": 64211,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                103620
+            ],
+            "name": "Franck Khalfoun",
+            "profile_path": "https://image.tmdb.org/t/p/original/rpsNEkSyYfxwXdbwCH3Mms5a2E8.jpg"
+        }
+    },
+    {
+        "pk": 57090,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                10163
+            ],
+            "name": "Brett Leonard",
+            "profile_path": "https://image.tmdb.org/t/p/original/24eM4jVMEY790YFNf3t7VhgX19z.jpg"
+        }
+    },
+    {
+        "pk": 59521,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                9815
+            ],
+            "name": "Jaume Collet-Serra",
+            "profile_path": "https://image.tmdb.org/t/p/original/z7jv5RF9RVZnv32QuMn8YxFgdIg.jpg"
+        }
+    },
+    {
+        "pk": 564,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                295699
+            ],
+            "name": "Richard Linklater",
+            "profile_path": "https://image.tmdb.org/t/p/original/wNijRefhQCp0BkNqM5qhhdazDgx.jpg"
+        }
+    },
+    {
+        "pk": 35318,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                9289
+            ],
+            "name": "Ken Annakin",
+            "profile_path": "https://image.tmdb.org/t/p/original/8oFZguwvvd1F3CETULi37Gq1ZtL.jpg"
+        }
+    },
+    {
+        "pk": 57142,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                9289
+            ],
+            "name": "Andrew Marton",
+            "profile_path": "https://image.tmdb.org/t/p/original/nY91bRdDR6MfgUhEst0tzHEevfG.jpg"
+        }
+    },
+    {
+        "pk": 9894,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                9289
+            ],
+            "name": "Bernhard Wicki",
+            "profile_path": "https://image.tmdb.org/t/p/original/kWBdiWLhjdFDMV953W5xhFyHTxv.jpg"
+        }
+    },
+    {
+        "pk": 227439,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                177572
+            ],
+            "name": "Don Hall",
+            "profile_path": "https://image.tmdb.org/t/p/original/jVevHpWoDaepeNmbNpBYHCktdd5.jpg"
+        }
+    },
+    {
+        "pk": 70238,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                177572
+            ],
+            "name": "Chris Williams",
+            "profile_path": "https://image.tmdb.org/t/p/original/eE2NDdeKN1DC3XuV6L4xuEbVaS.jpg"
+        }
+    },
+    {
+        "pk": 62541,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                25643
+            ],
+            "name": "Brandon Camp",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 56059,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                11212
+            ],
+            "name": "Patrick Read Johnson",
+            "profile_path": "https://image.tmdb.org/t/p/original/oOapCW2aZTGnyJCezk6dlpBAf66.jpg"
+        }
+    },
+    {
+        "pk": 20629,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                65759
+            ],
+            "name": "George Miller",
+            "profile_path": "https://image.tmdb.org/t/p/original/4FyQESSzuu1VkPup9CmMjdnUyhv.jpg"
+        }
+    },
+    {
+        "pk": 78108,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                38234
+            ],
+            "name": "Isaac Florentine",
+            "profile_path": "https://image.tmdb.org/t/p/original/4PJrg3l105M2GMNazhu2DXZ1Wce.jpg"
+        }
+    },
+    {
+        "pk": 42994,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                5375
+            ],
+            "name": "David Dobkin",
+            "profile_path": "https://image.tmdb.org/t/p/original/qpXTNNOkFmMoAtcEo0qNNFR9bls.jpg"
+        }
+    },
+    {
+        "pk": 42994,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                5375
+            ],
+            "name": "David Dobkin",
+            "profile_path": "https://image.tmdb.org/t/p/original/qpXTNNOkFmMoAtcEo0qNNFR9bls.jpg"
+        }
+    },
+    {
+        "pk": 17812,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                8090
+            ],
+            "name": "Gregory Hoblit",
+            "profile_path": "https://image.tmdb.org/t/p/original/8HyVUTApvgRwz9cl11R7R8TBPqh.jpg"
+        }
+    },
+    {
+        "pk": 834,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                93
+            ],
+            "name": "Otto Preminger",
+            "profile_path": "https://image.tmdb.org/t/p/original/t9eetEzRgKAanGRDCSEF9h3KyTW.jpg"
+        }
+    },
+    {
+        "pk": 1682841,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                553100
+            ],
+            "name": "Connie Macatuno",
+            "profile_path": ""
+        }
+    },
+    {
+        "pk": 8858,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                200505
+            ],
+            "name": "Ivan Reitman",
+            "profile_path": "https://image.tmdb.org/t/p/original/vYT8xpWCzKZc9F02Oqihxx1GFyg.jpg"
+        }
+    },
+    {
+        "pk": 64901,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                10610
+            ],
+            "name": "Gordon Chan",
+            "profile_path": "https://image.tmdb.org/t/p/original/loFRCbxYk5Mt6of9jAXVEtaAyZJ.jpg"
+        }
+    },
+    {
+        "pk": 33183,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                16577
+            ],
+            "name": "David Bowers",
+            "profile_path": "https://image.tmdb.org/t/p/original/1QlAQ7Q3e0gp1oQwc72v6Rx15Jj.jpg"
+        }
+    },
+    {
+        "pk": 30715,
+        "model": "movies.director",
+        "fields": {
+            "director_movie": [
+                330947
+            ],
+            "name": "Terrence Malick",
+            "profile_path": "https://image.tmdb.org/t/p/original/4w0C0RaJ3qS6YZ7Ons6VZcEdfl7.jpg"
+        }
+    }
+]

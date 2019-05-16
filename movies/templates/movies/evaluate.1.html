@@ -1,0 +1,136 @@
+{% extends 'base.html' %}
+{% block head %}
+<style>
+    .hover_container {
+      position: relative;
+      width: 50%;
+    }
+    
+    .hover_image {
+      opacity: 1;
+      display: black;
+      width: 100%;
+      height: auto;
+      transition: .5s ease;
+      backface-visibility: hidden;
+    }
+    
+    .middle {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      /*top: 87%;*/
+      top: 30%;
+      left: -5%;
+      /*transform: translate(-50%, -50%);*/
+      /*-ms-transform: translate(-50%, -50%);*/
+      /*text-align: center;*/
+    }
+    
+    .hover_container:hover .hover_image {
+      opacity: 0.3;
+      /*-webkit-transform: scale(1.2);*/
+    }
+    
+    .hover_container:hover .middle {
+      opacity: 1;
+    }
+    
+    .text {
+      /*background-color: #4CAF50;*/
+      color: white;
+      font-size: 16px;
+      padding: 16px 32px;
+    }
+    
+    /*.to-detail {*/
+        /*position: static;*/
+        /*left: 50%;*/
+        /*bottom: -60%;*/
+    /*}*/
+</style>
+{% endblock %}
+
+{% block content %}
+
+<div class="container">
+    <!--<p class="mt-3"> <span class="text-white">{{ user.username }}</span><span class="text-muted">님이 보고싶어요한 작품</span></p>-->
+    <div class="row">
+        {% for movie in movies %}
+        <div class="col-4 mb-3">
+            <!--<div class="card card-hover h-100">-->
+            <!--<div class="col-10 my-3">-->
+                <div class="card card-hover h-100 hover_container" style="width: 18rem; background-color: #191919;">
+                        <img src="{{ movie.poster_url }}" class="card-img-top hover_image" style="height: 410px;" alt="...">
+                        <div class="middle">
+                            <div class="text text-left">
+                                <h5>{{ movie.title }}</h5>
+                                <p>{{ movie.runtime }}분</p>
+                                <p style="font-size:12px;">{{ movie.overview }}</p>
+                                <!--<i class="fas fa-angle-down to-detail d-flex justify-content-center align-items-end"></i>-->
+                                <i class="fas fa-angle-down to-detail d-flex justify-content-center"></i>
+                            </div>
+                        </div>
+                    <!--<div class="card-body">-->
+                    <!--<div class="card-body">-->
+                    <!--  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+                    <!--</div>-->
+                    <!--    <div class="reveal bg-warning p-2">-->
+                    <!--        This is hidden until card in hovered!-->
+                    <!--    </div>-->
+                    <!--</div>-->
+                </div>
+            <!--</div>-->
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+
+
+
+
+<!--<p>보고싶어요</p>-->
+<!--{# for movie in user.like_movie.all #}-->
+<!--    <li>{{ movie.title }}</li>-->
+<!--{# endfor #}-->
+<!--<hr>-->
+<!--<p>관심없어요</p>-->
+<!--{# for movie in user.hate_movie.all #}-->
+<!--    <li>{{ movie.title }}</li>-->
+<!--{# endfor #}-->
+
+
+
+
+
+<!--<div class="view overlay">-->
+<!--    <img src="https://mdbootstrap.com/img/Photos/Others/forest-sm.jpg" class="img-fluid " alt="smaple image">-->
+<!--    <div class="mask flex-center rgba-red-strong">-->
+<!--        <p class="white-text">Strong overlay</p>-->
+<!--    </div>-->
+<!--</div>-->
+
+
+<!--<div class="row">-->
+<!--        <div class="col-sm-4">-->
+<!--            <div class="card card-hover h-100">-->
+<!--                <div class="card-body">-->
+<!--                    <i class="fa fa-search fa-5x float-right"></i>-->
+<!--                    <h3 class="card-title">Front</h3>-->
+<!--                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>-->
+<!--                    <div class="reveal bg-warning p-2">-->
+<!--                        This is hidden until card in hovered!-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+
+    
+    
+  
+
+{% endblock %}
+
+

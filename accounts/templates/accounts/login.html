@@ -1,0 +1,150 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load bootstrap4 %}
+{% load socialaccount %}
+{% block head %}
+<style>
+    html,body{
+    /*background-image: url('../static/accounts/img/login.jpg');*/
+    background-image: url('https://images2.alphacoders.com/760/760735.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+    background-position: center center;
+    overflow: hidden;
+    }
+    
+    .container{
+    height: 100%;
+    align-content: center;
+    }
+    
+    .card{
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0,0,0,0.5) !important;
+    }
+    
+    .social_icon a{
+    color: black;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    line-height: 44px;
+    font-size: 15px;
+    }
+    
+    .social_icon span:hover{
+    color: white;
+    cursor: pointer;
+    }
+    
+    .card-header h3{
+    color: white;
+    }
+    
+    .input-group-prepend span{
+    width: 50px;
+    background-color: #FFC312;
+    color: black;
+    border:0 !important;
+    }
+    
+    input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+    
+    }
+    
+    .remember{
+    color: white;
+    }
+    
+    .remember input
+    {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+    }
+    
+    .login_btn{
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+    }
+    
+    .login_btn:hover{
+    color: black;
+    background-color: #d39e00;
+    }
+    
+    .links{
+    color: white;
+    }
+    
+    .links a{
+    margin-left: 4px;
+    }
+    
+    .card-footer > span {
+        color: white;
+        font-size: 13px;
+    }
+    
+    #find {
+        color: #9E9E9E;
+        font-size: 14px;
+    }
+    
+    #kakao {
+        position: relative;
+        top: 15px;
+        left: 40px;
+        width: 20px;
+        height: 20px;
+    }
+</style>
+{% endblock %}
+{% block content %}
+<div class="container">
+	<div class="d-flex justify-content-center h-100">
+		<div class="card">
+			<div class="card-header justify-content-between">
+				<h3>로그인</h3>
+				<a href="#" id='find'>비밀번호를 잊어버리셨나요?</a>
+			</div>
+			<div class="card-body">
+				<form method="POST">
+				    {% csrf_token %}
+					<div class="input-group form-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text"><i class="fas fa-user"></i></span>
+						</div>
+						<input type="text" class="form-control" placeholder="username" name='username'>
+					</div>
+					<div class="input-group form-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text"><i class="fas fa-key"></i></span>
+						</div>
+						<input type="password" class="form-control" placeholder="password" name='password'>
+					</div>
+					<div class="form-group">
+						<input type="submit" value="로그인" class="btn float-right login_btn">
+					</div>
+				</form>
+			</div>
+			<div class="card-footer text-center">
+			    <span >이전에 카카오로 가입하셨나요?</span>
+				<div class="d-flex justify-content-center social_icon">
+				    <img src="{% static 'accounts/img/kakao.png' %}" alt="kakao" id="kakao" class='d-inline'>
+                    <a href="{% provider_login_url 'kakao' method='oauth2' %}" class="badge badge-pill badge-warning">카카오로그인</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}
