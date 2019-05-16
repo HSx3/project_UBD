@@ -146,19 +146,18 @@ def detail(request, movie_pk):
 def score_create(request, movie_pk):
     form = ScoreForm(request.POST)
     if form.is_valid():
-        if score_form.is_valid():
-            score = form.save(commit=False)
-            score.user = request.user
-            score.movie_id = movie_pk
-            score.save()
-            movie = get_object_or_404(Movie, pk=movie_pk)
-            movie.saw_user.add(request.user)
-            total = movie.vote_count * movie.vote_average
-            total += score.score
-            movie.vote_count += 1
-            movie.vote_average = round(total / movie.vote_count, 2)
-        # 점수 변경 추가하기
-            return redirect('movies:detail', movie_pk)
+        score = form.save(commit=False)
+        score.user = request.user
+        score.movie_id = movie_pk
+        score.save()
+        movie = get_object_or_404(Movie, pk=movie_pk)
+        movie.saw_user.add(request.user)
+        total = movie.vote_count * movie.vote_average
+        total += score.score
+        movie.vote_count += 1
+        movie.vote_average = round(total / movie.vote_count, 2)
+    # 점수 변경 추가하기
+        return redirect('movies:detail', movie_pk)
     else:
         return redirect('movies:list')
 
