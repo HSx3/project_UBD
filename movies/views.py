@@ -278,11 +278,12 @@ def evaluate(request):
 @login_required
 def search(request):
     if request.is_ajax():
-        statuss = Movie.objects.filter(title__contains='wild')
-        context = {
-            'statuss': statuss
-        }
-        return render(request, 'movies/index.html', context)
+        return redirect('movies:list')
+        # statuss = Movie.objects.filter(title__contains='wild')
+        # context = {
+        #     'statuss': statuss
+        # }
+        # return render(request, 'movies/index.html', context)
         # title = json.loads(request.body.decode('utf-8'))
         # title = request.POST.get('title', None)
         # title = ''
