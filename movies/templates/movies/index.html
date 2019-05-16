@@ -90,7 +90,7 @@
 {% block content %}
 {% if statuss > 0 %}
 {% for status in statuss %}
-<p>{{status}}</p>
+<p>{{ status.title }}</p>
 {% endfor %}
 {% else %}
 {% include 'movies/_mainAD.html' %}
