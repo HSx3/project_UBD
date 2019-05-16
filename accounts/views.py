@@ -10,8 +10,6 @@ from .models import Profile
 
 # Create your views here.
 # 회원가입
-@login_required
-@require_POST
 def signup(request):
     if request.user.is_authenticated:
         return redirect('movies:index')
