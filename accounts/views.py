@@ -124,4 +124,4 @@ def follow(request, user_pk):
         people.followers.remove(request.user)
     else:
         people.followers.add(request.user)
-    return redirect('people', people.pk)
+    return redirect('accounts:people', people.pk)
