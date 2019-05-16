@@ -88,6 +88,11 @@
 {% endblock %}
 
 {% block content %}
+{% if statuss > 0 %}
+{% for status in statuss %}
+<p>{{status}}</p>
+{% endfor %}
+{% else %}
 {% include 'movies/_mainAD.html' %}
 {% include 'movies/_highest.html' %}
 {% include 'movies/_popularity.html' %}
@@ -100,19 +105,5 @@
 {% if favorite_genre %}
 {% include 'movies/_favorite_genre.html' %}
 {% endif %}
-
-    <ul id="search-results">
-      {% if statuss > 0 %}
-      <ul class="statuss">
-          {% for status in statuss %}
-              <li>
-                  <p>{{status}}</p>
-              </li>
-          {% endfor %}    
-      </ul>
-      {% else %}
-        <p>No status found.</p>
-      {% endif %}
-          
-      {% endblock %}
-    </ul>
+{% endif %}
+{% endblock %}
