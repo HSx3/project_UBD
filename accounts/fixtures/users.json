@@ -1,0 +1,78 @@
+[
+{
+    "model": "accounts.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$120000$q2zWb7rxuz4b$yxfcSnbf8Hvv+iOg/1G1XF1P2n413e+9NV7bhGK5TLo=",
+        "last_login": "2019-05-16T12:10:04.960",
+        "is_superuser": false,
+        "username": "\uc870\uc131\uc6d0",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2019-05-16T12:10:04.764",
+        "groups": [],
+        "user_permissions": [],
+        "followers": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$120000$kozlFYpXfcmP$NEX6/S+/JNn0xi57zI+1qZWCZ6lFNDsjoj9oHVlnKyg=",
+        "last_login": "2019-05-16T13:14:17.674",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2019-05-16T12:20:27.641",
+        "groups": [],
+        "user_permissions": [],
+        "followers": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$120000$g88nlNUm3tmf$p6c9reYt8xypP66j9KZT0nkLwcZpVofEBlwIyjc5aLs=",
+        "last_login": "2019-05-16T13:35:30.805",
+        "is_superuser": false,
+        "username": "user1",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2019-05-16T13:11:23.367",
+        "groups": [],
+        "user_permissions": [],
+        "followers": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$120000$W1wOH6ze9751$A3P3YOj/J1yLga0DG6fINLVgV0fgaED4ukHfTO5u71o=",
+        "last_login": null,
+        "is_superuser": true,
+        "username": "admin2",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2019-05-16T16:40:43.887",
+        "groups": [],
+        "user_permissions": [],
+        "followers": []
+    }
+}
+]
