@@ -89,9 +89,7 @@
 
 {% block content %}
 {% if statuss > 0 %}
-{% for status in statuss %}
-<p>{{ status.title }}</p>
-{% endfor %}
+{% include 'movies/_search.html' %}
 {% else %}
 {% include 'movies/_mainAD.html' %}
 {% include 'movies/_highest.html' %}
