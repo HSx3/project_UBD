@@ -278,6 +278,8 @@ def evaluate(request):
 @login_required
 def search(request):
     if request.is_ajax():
+        data = json.loads(request.body.decode('utf-8'))
+        print(data)
         return redirect('movies:list')
         # statuss = Movie.objects.filter(title__contains='wild')
         # context = {
