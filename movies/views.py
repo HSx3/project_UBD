@@ -288,9 +288,9 @@ def search(request):
         # title = request.POST.get('title', None)
         # statuss = Movie.objects.filter(title__contains=title)
         # context = {
-            'statuss': statuss
-        }
-        return render(request, 'movies/index.html', context)
+        #     'statuss': statuss
+        # }
+        # return render(request, 'movies/index.html', context)
     else:
         return HttpResponseBadRequest()
         
