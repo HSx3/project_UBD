@@ -92,7 +92,7 @@
                 axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest'
                 axios.defaults.xsrfCookieName = 'csrftoken'
                 axios.defaults.xsrfHeaderName = 'X-CSRFToken'
-                axios.post('/movies/search/', { title: searching, })
+                axios.post('/movies/search/', { data: searching, })
                     .then(response => {
                         console.log(response, JSON.stringify(response, null, 2))
                     })
