@@ -88,17 +88,21 @@
     <script>
             $('#searchMovie').keyup(function() {
     $('#searchMovie').each(function() {
-                $.ajax({
-            type: "POST",
-            url: "/movies/search/",
-            data: {
-                'title' : $('#searchMovie').val(),
-                'csrfmiddlewaretoken' : $("input[name=csrfmiddlewaretoken]").val()
-            },
-            success: console.log('success'),
-            dataType: 'html'
-                });
-             });
+        var csrftoken = $("[name=csrfmiddlewaretoken]").val();
+        console.log('test')
+        $.ajax({
+        type: "POST",
+        headers:{
+        "X-CSRFToken": csrftoken
+        },
+        url: "/movies/search/",
+        data: {
+            'title' : $('#searchMovie').val(),
+        },
+        success: console.log('success'),
+        dataType: 'html'
+        });
+     });
 
     //     $('#searchMovie').keyup(function() {
     // $('#searchMovie').each(function() {
